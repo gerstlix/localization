@@ -2,19 +2,19 @@
 #         Общее
 # =======================
 BUNGEE_SERVER_MOTD_TEXT:
-  - '&6&lGerstlix&f&lNetwork &8⚡ &amc.network.gerstlix.ru &8&k|&r &8[&b1.8 - 1.17.1&8]'
+  - '&6&lGerstlix&f&lNetwork &8⚡ &anetwork.gerstlix.ru &8&k|&r &8[&b1.8 - 1.17.1&8]'
   - '§e▶ &fКомплекс игровых серверов!'
 BUNGEE_SERVER_MOTD_HOVER:
   - ' &a➥ &fЗаходите поиграть к нам :3'
 
 BUNGEE_WHITELIST_SERVER_MOTD_TEXT:
-  - '&6&lGerstlix&f&lNetwork &8⚡ &emc.network.gerstlix.ru &8&k|&r &8[&b1.8 - 1.17.1&8]'
+  - '&6&lGerstlix&f&lNetwork &8⚡ &enetwork.gerstlix.ru &8&k|&r &8[&b1.8 - 1.17.1&8]'
   - ' &c✖ &cСервер находится на технических работах!'
 BUNGEE_WHITELIST_SERVER_MOTD_HOVER:
   - '&c✖ &cСервер находится на технических работах!'
 
 CORE_NOT_CONNECTED_MOTD:
-  - '&6&lGerstlix&f&lNetwork &8⚡ &cmc.network.gerstlix.ru &8&k|&r &8[&b1.8 - 1.17.1&8]'
+  - '&6&lGerstlix&f&lNetwork &8⚡ &cnetwork.gerstlix.ru &8&k|&r &8[&b1.8 - 1.17.1&8]'
   - ' &c✖ &cСоединение с игровым координатором отсутствует'
 CORE_NOT_CONNECTED_HOVER:
   - '&c✖ &cСоединение с игровым координатором отсутствует!'
@@ -207,7 +207,7 @@ ANNOUNCER_IP_COPY_MESSAGE:
   - '§8§m -------------------------------------------'
   - ''
   - '§4▪ §fРасскажите о нашем сервере своим §cдрузьям'
-  - '§e▪ §fНаш IP: §6mc.network.gerstlix.ru'
+  - '§e▪ §fНаш IP: §6network.gerstlix.ru'
   - '§b▪ §fЭтим вы поможете развиваться §eсерверу §fнамного §bбыстрее'
   - ''
   - ' §8§l↪ §7(Скопировать IP) §8§l↩'
