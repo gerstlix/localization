@@ -1,1 +1,1966 @@
+# =======================
+#         Общее
+# =======================
+BUNGEE_SERVER_MOTD_TEXT:
+  - '&6&lGerstlix&f&lNetwork &8⚡ &awww.gerstlix.ru &8&k|&r &8[&b1.8 - 1.17.1&8]'
+  - '§e▶ &fКомплекс игровых серверов!'
+BUNGEE_SERVER_MOTD_HOVER:
+  - ' &a➥ &fЗаходите поиграть к нам :3'
 
+BUNGEE_WHITELIST_SERVER_MOTD_TEXT:
+  - '&6&lGerstlix&f&lNetwork &8⚡ &ewww.gerstlix.ru &8&k|&r &8[&b1.8 - 1.17.1&8]'
+  - ' &c✖ &cСервер находится на технических работах!'
+BUNGEE_WHITELIST_SERVER_MOTD_HOVER:
+  - '&c✖ &cСервер находится на технических работах!'
+
+CORE_NOT_CONNECTED_MOTD:
+  - '&6&lGerstlix&f&lNetwork &8⚡ &cwww.gerstlix.ru &8&k|&r &8[&b1.8 - 1.17.1&8]'
+  - ' &c✖ &cСоединение с игровым координатором отсутствует'
+CORE_NOT_CONNECTED_HOVER:
+  - '&c✖ &cСоединение с игровым координатором отсутствует!'
+
+PLAYER_TAB_HEADER:
+  - ''
+  - '&6&lGerstlix&f&lNetwork'
+  - '&e✮ &7Лучшие в своём роде &e✮'
+  - ''
+  - '&fСписок игроков:&r'
+PLAYER_TAB_FOOTER:
+  - ''
+  - ' &fОбщий онлайн &8→ &e%online% '
+  - " &fТекущий сервер &8→ &e%server%"
+  - ''
+  - '&7www.gerstlix.ru'
+
+WELCOME_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - '§8§k§l|§r§1  §fДобро пожаловать на §6§lGerstlix§f§lNetwork  §8§k§l|'
+  - ''
+  - '§a❃ §fБеги вперед и выбирай режим для игры'
+  - '§d❃ §fкликни по компасу, чтобы узнать больше.'
+  - '§b❃ §fИграй с другом, вместе веселее - §a/party'
+  - ''
+  - '§8§m -------------------------------------------'
+WELCOME_MESSAGE_TITLE: "§e§l◀ §6§lGerstlix§f§lNetwork §e§l▶"
+WELCOME_MESSAGE_SUBTITLE: "§fЗакрытое бета тестирование!"
+
+WHITELIST_KICK_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - '§1'
+  - '§cСервер находится на технических работах!'
+  - '§2'
+  - '§3'
+  - '§aНа данный момент сервер находится на технических работах'
+  - '§fПодробную информацию Вы сможете получить в наших социальных сетях'
+  - '§4'
+  - '§6https://vk.com/gerstlixnetwork'
+  - '§6https://www.gerstlix.ru/discord'
+  - '§5'
+  - '§8§m -------------------------------------------'
+
+LVL_UP_TITLE: '§a§l§kX§c§l УРОВЕНЬ ПОВЫШЕН §a§l§kX§r'
+LVL_UP_SUBTITLE: '§fВы достигли §b%new_level% §fуровня'
+LVL_UP_MESSAGE:
+  - ''
+  - ''
+  - '          §b§kX§6§l НОВЫЙ УРОВЕНЬ §b§kX'
+  - '  §a▸ §fВы достигли §d%new_level% §fуровня!'
+  - '  §a▸ §fДо следущего необходимо §e%total_exp% §fопыта'
+  - ''
+
+BACK_TITLE: '§cНазад'
+BACK_LINES:
+  - ''
+  - '§e▶ Нажмите, чтобы вернуться в предыдущее меню.'
+
+# =======================
+#         Дополнительное
+# =======================
+COMMAND_IN_DEV: '§cОшибка, данная команда находится в разработке!'
+START_TITLE_MSG: 'СТАРТ'
+
+# =======================
+#         Игрок
+# =======================
+NO_PERM: '§6§lGerstlix §8» §cУ вас недостаточно прав!'
+MINIMAL_GROUP: '§6§lGerstlix §8» §fДля выполнения данной команды необходим статус %group% §fили выше!'
+NO_PLAYER: '§6§lGerstlix §8» §cДанный игрок ранее не играл на нашем сервере'
+PLAYER_OFFLINE: '§6§lGerstlix §8» §cИгрок оффлайн!'
+PLAYER_BYPASS: '§6§lGerstlix §8» §cВы не можете наказать данного игрока'
+ALREADY_CONNECTION: '§6§lGerstlix §8» §cВы уже находитесь на этом сервере!'
+SERVER_NOT_FOUND: '§6§lGerstlix §8» §cНевозможно найти подходящий сервер'
+NO_ENOUGH_MONEY: '§6§lGerstlix §8» §cУ вас недостаточно средств!'
+
+VK_URL: '§8▪ §fВКонтакте - §ahttps://vk.com/id%vkId%'
+NO_VK: '§8▪ §fВКонтакте - §cНе привязан'
+
+INFO:
+  - '§6§lGerstlix §8§l» §fИнформация о игроке %player%'
+  - '§8▪ §fУникальный ID - §c%id%'
+  - '§8▪ §fПривилегия - %group%'
+  - '§8▪ §fБаланс - §a%money%'
+  - '§8▪ §fЗолота - §a%golds%'
+  - '§8▪ §fУровень - §d%level%'
+  - '§8▪ §fЯзык - §c%language%'
+  - '§8▪ §fEXP - §e%exp%§8/§c%max_exp%'
+INFO_ONLINE:
+  - ''
+  - '§8▪ §fНа данный момент - §aОнлайн'
+  - '§8▪ §fТекущий сервер - §d%server%'
+  - '§8▪ §fВерсия - §d%version%'
+INFO_OFFLINE:
+  - ''
+  - '§8▪ §fНа данный момент - §cОффлайн'
+  - '§8▪ §fПоследний сервер - §d%server%'
+  - '§8▪ §fБыл в сети §c%date% назад'
+
+# =======================
+#         Авторизация
+# =======================
+USE_LOGIN_SERVER: '§5§lAuthorization §8» §cДанная команда на этом сервере запрещена!'
+UNREGISTER_SUCCESS: '§5§lAuthorization §8» §fВы успешно разрегистрировали игрока'
+PASSWORD_NOT_VALID: '§5§lAuthorization §8» §cВыбранный пароль короткий, либо слишком длинный'
+PASSWORD_NOT_MATCH: '§5§lAuthorization §8» §cУказанные пароли не совпадают!'
+USE_ONLY_AUTH: '§5§lAuthorization §8» §cВы еще не авторизированны!'
+PLAYER_NOT_AUTH: '§5§lAuthorization §8» §cВы не вошли в аккаунт'
+PLAYER_NOT_REGISTER: '§5§lAuthorization §8» §cВы не зарегистрированы'
+PLAYER_WRONG_PASSWORD: '§5§lAuthorization §8» §cНеверный пароль!'
+PLAYER_SUCCESS_CHANGE_PASSWORD: '§5§lAuthorization §8» §fВаш пароль был успешно изменён!'
+PLAYER_ALREADY_AUTH: '§5§lAuthorization §8» §cВы уже авторизированны, приятной игры!'
+PLAYER_SUCCESS_AUTH: '§5§lAuthorization §8» §fВы успешно зарегистрировались!'
+CHANGE_PASSWORD_USAGE: '§5§lAuthorization §8» §fИспользуйте §5/changepassword <старый_пароль> <новый_пароль>'
+UNREGISTER_USAGE: '§5§lAuthorization §8» §fИспользуйте §5/unregister <игрок>'
+REGISTER_USAGE:
+  - '§8§m--------------§6§lАвторизация§8§m--------------'
+  - ''
+  - '§7Приветствуем Вас на §6§lGerstlix§f§lNetwork§7!'
+  - ''
+  - '§e§l> §fИспользуйте - §5/register §8[§fПароль§8] §8[§fПовтор пароля§8]'
+  - ''
+  - '§8§m----------------------------------------'
+LOGIN_USAGE:
+  - '§8§m--------------§6§lАвторизация§8§m--------------'
+  - ''
+  - '§7Приветствуем Вас на §6§lGerstlix§f§lNetwork§7!'
+  - ''
+  - '§e§l> §fИспользуйте - §5/login §8[§fПароль§8]'
+  - ''
+  - '§8§m----------------------------------------'
+ACCOUNT_NOT_LINKED_VK:
+  - ''
+  - '§c§l⚠ Внимание! §fУ Вас не привязана страница §bВКонтакте §fк своему аккаунту.'
+  - 'Сделав это, вы сможете управлять аккаунтом.'
+  - 'Если вас взломают, то вы легко сможете восстановить свой аккаунт!'
+  - 'Сделайте это прямо сейчас, написав в сообщения группы: §evk.com/gerstlixnetwork'
+  - 'Команда - §6!привязать [ник] [пароль]'
+
+# =======================
+#         Команды
+# =======================
+ALERT_HELP: '§6§lGerstlix §8» §fИспользуйте §6/alert <сообщение>'
+BROADCAST_HELP: '§6§lGerstlix §8» §fИспользуйте §6/broadcast <сообщение>'
+FIND_HELP: '§6§lGerstlix §8» §fИспользуйте §6/find <ник>'
+INFO_HELP: '§6§lGerstlix §8» §fИспользуйте §6/info <ник>'
+IP_HELP: '§6§lGerstlix §8» §fИспользуйте §6/ip <ник игрока>'
+
+SERVER_HELP: '§6§lGerstlix §8» §fИспользуйте §6/server <сервер>'
+SEND_HELP: '§6§lGerstlix §8» §fИспользуйте §6/send <ник> <сервер>'
+CRASH_HELP: '§6§lGerstlix §8» §fИспользуйте §6/crash <ник>'
+
+FIND_MESSAGE: '§6§lGerstlix §8» §fИгрок %player% §fнаходится на сервере §c%server%'
+FIND_OFFLINE_MESSAGE: '§6§lGerstlix §8» §fИгрок %player% §fоффлайн, последний раз он был на сервере §e%time% §fназад'
+MONEY_MESSAGE: '§6§lGerstlix §8» §fВаш баланс: §e%money% §fи §6%golds%'
+PING_YOURSELF_MESSAGE: '§6§lGerstlix §8» §fВаш пинг §a%ping% §fms'
+PING_OTHER_MESSAGE: '§6§lGerstlix §8» §fПинг игрока %player% §f- §a%ping% §fms'
+
+WATCH_HELP: '§6§lGerstlix §8» §fИспользуйте §6/watch <ник>'
+WATCH_ERROR_SPECTATE_YOURSELF: '§6§lGerstlix §8» §cDы не можете следить за собой!'
+WATCH_ERROR_NOT_GAME_ARENA: '§6§lGerstlix §8» §cИгровая арена еще не запущена, подождите ее начала!'
+WATCH_ERROR_GAME_ARENA_NOT_STARTED: '§6§lGerstlix §8» §cИгровая арена еще не запущена, подождите ее начала!'
+
+GLOBAL_ONLINE: '§6§lGerstlix §8» §fОбщий онлайн сервера - §e%online%'
+ONLINE_BY_PREFIX: '§6§lGerstlix §8» §fОбщий серверов по префиксу §e%prefix% - §e%online%'
+ONLINE_BY_SERVER: '§6§lGerstlix §8» §fОнлайн сервера §e%prefix% - §e%online%'
+
+HUB_NOT_FOUND: '§cОшибка, на данный момент нет доступных Hub серверов!'
+LOBBY_NOT_FOUND: '§cОшибка, данный режим не имеет лобби серверов!'
+
+# =======================
+#         Выбор языка
+# =======================
+LANGUAGE_SELECT_MENU_TITLE: 'Выбор игрового языка'
+LANG_SELECT: '§6§lGerstlix §8» §fВаш язык изменен на §cРусский§f!'
+
+# =======================
+#         Оповещения
+# =======================
+BUNGEE_ANNOUNCER_DONATE_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§c▪ §fХочешь получить какую-то §9привилегию §fна сервере?'
+  - '§e▪ §fЗаходи в §d§nменю с донатом§f, и смотри §b§nуникальные§f возможности донатеров'
+  - ''
+  - ' §8§l↪ §7(Открыть меню) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_IP_COPY_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§4▪ §fРасскажите о нашем сервере своим §cдрузьям'
+  - '§e▪ §fНаш IP: §6www.gerstlix.ru'
+  - '§b▪ §fЭтим вы поможете развиваться §eсерверу §fнамного §bбыстрее'
+  - ''
+  - ' §8§l↪ §7(Скопировать IP) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_SECURITY_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§e▪ §fХочешь, чтобы твой §aаккаунт §fбыл в безопасности?'
+  - '§c▪ §fТогда привяжи §aаккаунт к §bВКонтакте'
+  - '§a▪ §fДля этого перейдите в личные сообщения нашего ВК бота'
+  - '§4▪ §fКоманда - §e!привязать [ник] [пароль]'
+  - ''
+  - ' §8§l↪ §7(Привязать аккаунт к VK) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_VK_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§a▪ §fВозникли какие-то §aпроблемы §fили §aвопросы?'
+  - '§e▪ §fОбратитесь в нашу техническую поддержку'
+  - '§c▪ §fДля этого перейдите в нашу группу ВК и Вам §cобязательно помогут'
+  - ''
+  - ' §8§l↪ §7(Задать вопрос) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_DISCORD_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§e▪ §fИщешь новых друзей или просто скучно играть одному?'
+  - '§c▪ §fПрисоединяйся к нашему голосовому чату §9Discord §fи развлекайся!'
+  - '§a▪ §fЖдем тебя в нашем §9дискорд §fсервере!'
+  - '§4▪ §fОгромный выбор каналов и ролей ждут тебя'
+  - ''
+  - ' §8§l↪ §7(Перейти в Discord) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_REPORT_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§e▪ §fЗаметил §cнарушителя §f? Отправляй §cжалобу §fпрямо сейчас!'
+  - '§c▪ §fНа нашем сервере есть система жалоб, которая доступна всем игрокам'
+  - '§a▪ §fОтправляя жалобу ты помогаешь серверу в избавлении от нарушителей'
+  - ''
+  - ' §8§l↪ §7(Отправить жалобу) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_FULL_SLOTS_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§a▪ §fВсе арены §cпереполнены§f, не хватает слотов?'
+  - '§e▪ §fПриобретите §b§lLITE §fна сайте §6www.gerstlix.ru'
+  - '§c▪ §fи данная проблема будет решена'
+  - ''
+  - ' §8§l↪ §7(Перейти на сайт) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_DONATE_1_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§2▪ §fПокупайте §c§lMAGMA §fпо очень §dпривлекательной §fцене'
+  - '§9▪ §fУже с ней вы получите достойное количество §eвозможностей'
+  - '§e▪ §fкоторые сделают вашу игру §aинтереснее'
+  - ''
+  - ' §8§l↪ §7(Перейти на сайт) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_DONATE_2_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§e▪ §fПривилегия §c§lMAGMA §fдает большое'
+  - '§2▪ §fколичество §bбонусов§f и §eвозможностей§f за умеренную цену.'
+  - '§9▪ §fЗаинтересовало? Покупай на сайте §6www.gerstlix.ru'
+  - ''
+  - ' §8§l↪ §7(Перейти на сайт) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_DONATE_3_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§a▪ §e§lSUPPORT §f- лучшая привилегия сервера,'
+  - '§c▪ §fсочетает в себе максимальное количество'
+  - '§b▪ §eвозможностей§f и §dбонусов§f для комфортной игры'
+  - ''
+  - ' §8§l↪ §7(Перейти на сайт) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_QUESTION_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§c▪ §fПоявились §eвопросы§f, на которые Вы §cне знаете ответ?'
+  - '§e▪ §fНапишите команду §c/ask <ваш вопрос>'
+  - '§2▪ §aОнлайн администрация§f поможет Вам §bв реальном времени'
+  - ''
+  - ' §8§l↪ §7(Задать вопрос) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_DONATE_MENU_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§a▪ §fХотите §dуникальные§f, скрытые §eфункции§f и §aвозможности§f?'
+  - '§9▪ §fПокупайте донат у нас и получайте доступ к'
+  - '§b▪ §fдонат-меню командой §c/donatemenu'
+  - ''
+  - ' §8§l↪ §7(Открыть меню) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_VK_ANNOUNCER_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§a▪ §fПосетите нашу группу §9VK§f и вы будете всегда'
+  - '§9▪ §fв курсе последних новостей §eсервера'
+  - '§b▪ §fПереходите по ссылке §bvk.com/gerstlixnetwork'
+  - ''
+  - ' §8§l↪ §7(Перейти в ВК) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_MONITORING_ANNOUNCER_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§a▪ §fПосетите нашу группу §9VK§f и вы будете всегда'
+  - '§9▪ §fв курсе последних новостей §eсервера'
+  - '§b▪ §fПереходите по ссылке §bvk.com/gerstlixnetwork'
+  - ''
+  - ' §8§l↪ §7(Перейти в ВК) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_BUY_DONATE_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§a▪ §fПокупая §dпривилегии§f, вы не просто помогаете серверу'
+  - '§9▪ §fВы открываете для себя §cмножество §fвозможностей'
+  - '§b▪ §fПоэтому мы делаем скидку в §c50% §fпо промокоду §cSALE'
+  - '§e▪ §fНа покупку абсолютно любой привилегии!'
+  - ''
+  - ' §8§l↪ §7(Перейти на сайт) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_BUY_DONATE_2_ANNOUNCER_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§a▪ §fПокупая §dпривилегию§f, вы §aпомогаете §fв §bразвитии §fпроекта!'
+  - '§9▪ §fПри покупке привилегии мы даем §dуйму §fвозможностей для вас'
+  - '§b▪ §fПосмотреть возможности: §6/donate'
+  - ''
+  - ' §8§l↪ §7(Открыть меню) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_CAST_VOTE_1_ANNOUNCER_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§2▪ §fХочешь §cподдержать §fсервер, но не знаешь как?'
+  - '§b▪ §fПроголосуй за наш проект в §bмониторинге§f!'
+  - '§d▪ §fБлагодаря Вам наш проект будет §aразвиваться'
+  - ''
+  - ' §8§l↪ §7(Проголосовать за проект) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_CAST_VOTE_2_ANNOUNCER_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§2▪ §fХочешь §cподдержать §fсервер, но не знаешь как?'
+  - '§b▪ §fПроголосуй за наш проект в §bмониторинге§f!'
+  - '§d▪ §fБлагодаря Вам наш проект будет §aразвиваться'
+  - ''
+  - ' §8§l↪ §7(Проголосовать за проект) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_CAST_VOTE_3_ANNOUNCER_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§2▪ §fХочешь §cподдержать §fсервер, но не знаешь как?'
+  - '§b▪ §fПроголосуй за наш проект в §bмониторинге§f!'
+  - '§d▪ §fБлагодаря Вам наш проект будет §aразвиваться'
+  - ''
+  - ' §8§l↪ §7(Проголосовать за проект) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_CAST_VOTE_4_ANNOUNCER_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§2▪ §fХочешь §cподдержать §fсервер, но не знаешь как?'
+  - '§b▪ §fПроголосуй за наш проект в §bмониторинге§f!'
+  - '§d▪ §fБлагодаря Вам наш проект будет §aразвиваться'
+  - ''
+  - ' §8§l↪ §7(Проголосовать за проект) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+ANNOUNCER_CAST_VOTE_5_ANNOUNCER_MESSAGE:
+  - '§8§m -------------------------------------------'
+  - ''
+  - '§2▪ §fХочешь §cподдержать §fсервер, но не знаешь как?'
+  - '§b▪ §fПроголосуй за наш проект в §bмониторинге§f!'
+  - '§d▪ §fБлагодаря Вам наш проект будет §aразвиваться'
+  - ''
+  - ' §8§l↪ §7(Проголосовать за проект) §8§l↩'
+  - ''
+  - '§8§m -------------------------------------------'
+
+ANNOUNCER_OPEN_MENU_HOVER: '§fНажмите сюда, чтобы открыть меню'
+ANNOUNCER_OPEN_VOTE_HOVER: '§fНажмите сюда, чтобы проголосовать за проект'
+ANNOUNCER_OPEN_URL_HOVER: '§fНажмите сюда, чтобы перейти на сайт'
+ANNOUNCER_DISCORD_HOVER: '§fНажмите сюда, чтобы перейти в наш дискорд сервер'
+ANNOUNCER_OPEN_URL_OTHER_HOVER: '§fНажмите сюда, чтобы перейти'
+ANNOUNCER_OPEN_QUESTION_HOVER: '§fНажмите сюда, чтобы задать свой вопрос'
+ANNOUNCER_OPEN_REPORT_HOVER: '§fИспользуй команду - §6/report <ник> <причина>'
+ANNOUNCER_COPY_HOVER: '§9Кликни, чтобы скопировать'
+ANNOUNCER_SECURITY_HOVER: '§fПерейдите по ссылке и напишите боту команду §cПРИВЯЗАТЬ'
+
+# =======================
+#         ACHIEVEMENTS
+# =======================
+HIDEN_ACHIEVEMENTS_GUI: '§8Достижения ▸ Секретные'
+ACHIEVEMENTS_ONEBLOCK: '§8Достижения ▸ Один блок'
+ACHIEVEMENTS_GUNGAME: '§8Достижения ▸ GunGame'
+ACHIEVEMENTS_BEDWARS: '§8Достижения ▸ BedWars'
+ACHIEVEMENTS_SKYWARS: '§8Достижения ▸ SkyWars'
+ACHIEVEMENTS_ARCADE: '§8Достижения ▸ ArcadeGames'
+ACHIEVEMENTS_GLOBAL: '§8Достижения ▸ Общие'
+
+# todo remake
+
+ACHIEVEMENTS_HIDEN_NAME: '§9§lСекретные достижения'
+ACHIEVEMENTS_HIDEN_LORE:
+  - ''
+  - ' §7В этой категории представлены'
+  - ' §7все секретные достижения проекта.'
+  - ''
+  - ' §7Эти достижения получить непросто'
+  - ' §7или практически невозможно..'
+  - ''
+  - ' §8▪ §fВыполнено: §e%completecount%§8/§a%achievementscount% §7(§6%two%§7)'
+  - ''
+  - '§a▸ §a§lНажмите§7, чтобы посмотреть'
+
+ACHIEVEMENTS_ONEBLOCK_NAME: '§9§lОдин блок достижения'
+ACHIEVEMENTS_ONEBLOCK_LORE:
+  - ''
+  - ' §7В этой категории представлены все'
+  - ' §7достижения на режиме Один блок.'
+  - ''
+  - ' §8▪ §fВыполнено: §e%completecount%§8/§a%achievementscount% §7(§6%two%§7)'
+  - ''
+  - '§a▸ §a§lНажмите§7, чтобы посмотреть'
+
+ACHIEVEMENTS_GUNGAME_NAME: '§9§lGunGame достижения'
+ACHIEVEMENTS_GUNGAME_LORE:
+  - ''
+  - ' §7В этой категории представлены все'
+  - ' §7достижения на режиме на режиме GunGame.'
+  - ''
+  - ' §8▪ §fВыполнено: §e%completecount%§8/§a%achievementscount% §7(§6%two%§7)'
+  - ''
+  - '§a▸ §a§lНажмите§7, чтобы посмотреть'
+
+ACHIEVEMENTS_BEDWARS_NAME: '§9§lBedWars достижения'
+ACHIEVEMENTS_BEDWARS_LORE:
+  - ''
+  - ' §7В этой категории представлены все'
+  - ' §7достижения на режиме BedWars.'
+  - ''
+  - ' §8▪ §fВыполнено: §e%completecount%§8/§a%achievementscount% §7(§6%two%§7)'
+  - ''
+  - '§a▸ §a§lНажмите§7, чтобы посмотреть'
+
+ACHIEVEMENTS_ARCADE_NAME: '§9§lArcadeGames достижения'
+ACHIEVEMENTS_ARCADE_LORE:
+  - ''
+  - ' §7В этой категории представлены все'
+  - ' §7достижения на режиме ArcadeGames.'
+  - ''
+  - ' §8▪ §fВыполнено: §e%completecount%§8/§a%achievementscount% §7(§6%two%§7)'
+  - ''
+  - '§a▸ §a§lНажмите§7, чтобы посмотреть'
+
+ACHIEVEMENTS_SKYWARS_NAME: '§9§lSkyWars достижения'
+ACHIEVEMENTS_SKYWARS_LORE:
+  - ''
+  - ' §7В этой категории представлены все'
+  - ' §7достижения на режиме SkyWars.'
+  - ''
+  - ' §8▪ §fВыполнено: §e%completecount%§8/§a%achievementscount% §7(§6%two%§7)'
+  - ''
+  - '§a▸ §a§lНажмите§7, чтобы посмотреть'
+
+ACHIEVEMENTS_GLOBAL_NAME: '§9§lГлобальные достижения'
+ACHIEVEMENTS_GLOBAL_LORE:
+  - ''
+  - ' §7Эти достижения выполняются'
+  - ' §7независимо от конкретных режимов'
+  - ''
+  - ' §8▪ §fВыполнено: §e%completecount%§8/§a%achievementscount% §7(§6%two%§7)'
+  - ''
+  - '§a▸ §a§lНажмите§7, чтобы посмотреть'
+
+ACHIEVEMENT_COMPLETE_LORE:
+  - ''
+  - ' %description%'
+  - ''
+  - ' §fНаграда:'
+  - '  §8▪ §6§l%money% §fмонет'
+  - '  §8▪ §6§l%exp% §fопыта'
+  - ''
+  - ' §6◔ §aВы выполнили это достижение!'
+
+ACHIEVEMENT_NOT_COMPLETED_LORE:
+  - ''
+  - ' %description%'
+  - ''
+  - ' §fНаграда:'
+  - '  §8▪ §6§l%money% §fмонет'
+  - '  §8▪ §6§l%exp% §fопыта'
+  - ''
+  - ' §a↪ §fПрогресс: §e%completecount%§8/§a%achievementscount% §7(§6%two%§7)'
+
+FIRST_JOIN_NAME: '§6Добро пожаловать'
+FIRST_JOIN_COMPLETED_LORE: '§7Впервые зайдите на наш проект.'
+FIRST_JOIN_NOT_COMPLETED_LORE: '§7Впервые зайдите на наш проект.'
+
+FIRST_MESSAGE_NAME: '§6Любитель поговорить'
+FIRST_MESSAGE_COMPLETED_LORE: '§7Напишите свое первое сообщение.'
+FIRST_MESSAGE_NOT_COMPLETED_LORE: '§7Напишите свое первое сообщение.'
+
+FIRST_FRIEND_NAME: '§6Дружба - это сила'
+FIRST_FRIEND_COMPLETED_LORE: '§7Подружитесь с одним из игроков.'
+FIRST_FRIEND_NOT_COMPLETED_LORE: '§7Подружитесь с одним из игроков.'
+
+ROAD_TO_HELL_NAME: '§6Почти космонавт'
+ROAD_TO_HELL_COMPLETED_LORE: '§7Попробуйте слетать в космос.'
+ROAD_TO_HELL_NOT_COMPLETED_LORE: '§7Попробуйте слетать в космос.'
+
+LITE_AC_NAME: '§6В первый раз...'
+LITE_AC_COMPLETED_LORE: '§7Приобретите группу LITE на проекте.'
+LITE_AC_NOT_COMPLETED_LORE: '§7Секретное достижение'
+
+GOLD_AC_NAME: '§6Лучший из лучших'
+GOLD_AC_COMPLETED_LORE: ' §7Приобретите группу GOLD на проекте.'
+GOLD_AC_NOT_COMPLETED_LORE: '§7Секретное достижение'
+
+MAGMA_AC_NAME: '§6Местный'
+MAGMA_AC_COMPLETED_LORE: '§7Приобретите группу MAGMA на проекте.'
+MAGMA_AC_NOT_COMPLETED_LORE: '§7Секретное достижение'
+
+RUBY_AC_NAME: '§6Шиковать, так шиковать!'
+RUBY_AC_COMPLETED_LORE: '§7Приобретите группу RUBY на проекте.'
+RUBY_AC_NOT_COMPLETED_LORE: '§7Секретное достижение'
+
+SUPPORT_AC_NAME: '§6Очень важная персона'
+SUPPORT_AC_COMPLETED_LORE: '§7Приобретите группу SUPPORT на проекте.'
+SUPPORT_AC_NOT_COMPLETED_LORE: '§7Секретное достижение'
+
+YOUTUBE_AC_NAME: '§6Свет, камера, мотор, начали!'
+YOUTUBE_AC_COMPLETED_LORE: '§7Получите группу Youtube на проекте.'
+YOUTUBE_AC_NOT_COMPLETED_LORE: '§7Секретное достижение'
+
+STAFF_AC_NAME: '§6Часть великолепной команды'
+STAFF_AC_COMPLETED_LORE: '§7Станьте частью команды нашего проекта.'
+STAFF_AC_NOT_COMPLETED_LORE: '§7Секретное достижение'
+
+BEST_PROJECT_NAME: '§6Любимый проект'
+BEST_PROJECT_COMPLETED_LORE: '§7Выразите свою любовь к проекту.'
+BEST_PROJECT_NOT_COMPLETED_LORE: '§7Секретное достижение'
+
+OPEN_CASE_AC_NAME: '§6Новые эмоции'
+OPEN_CASE_AC_COMPLETED_LORE: '§7Откройте свой первый кейс'
+OPEN_CASE_AC_NOT_COMPLETED_LORE: '§7Секретное достижение'
+
+OPEN_CASE_2_AC_NAME: '§6Любитель нового'
+OPEN_CASE_2_AC_COMPLETED_LORE: '§7Откройте 5 кейсов'
+OPEN_CASE_2_AC_NOT_COMPLETED_LORE: '§7Секретное достижение'
+
+DID_IT_NAME: '§6Автограф создателя'
+DID_IT_COMPLETED_LORE: '§7Добавьте в друзья MiRiKYouTuBe'
+DID_IT_NOT_COMPLETED_LORE: '§7Добавьте в друзья MiRiKYouTuBe'
+
+TO_THE_MOON_NAME: '§6На луну!'
+TO_THE_MOON_COMPLETED_LORE: '§7Подняться выше 1000 блоков в лобби'
+TO_THE_MOON_NOT_COMPLETED_LORE: '§7Секретное достижение'
+
+BEGGINING_NAME: '§6§lНачало'
+BEGGINING_COMPLETED_LORE: '§7Создать остров'
+BEGGINING_NOT_COMPLETED_LORE: '§7Создать остров'
+
+SOCIABLE_1_NAME: '§a§lОбщительный I'
+SOCIABLE_1_COMPLETED_LORE: '§7Стать друзьями с кем нибудь 5 раз'
+SOCIABLE_1_NOT_COMPLETED_LORE: '§7Стать друзьями с кем нибудь 5 раз'
+
+SOCIABLE_2_NAME: '§a§lОбщительный 2'
+SOCIABLE_2_COMPLETED_LORE: '§7Стать друзьями с кем нибудь 15 раз'
+SOCIABLE_2_NOT_COMPLETED_LORE: '§7Стать друзьями с кем нибудь 15 раз'
+
+SOCIABLE_3_NAME: '§a§lОбщительный 3'
+SOCIABLE_3_COMPLETED_LORE: '§7Стать друзьями с кем нибудь 30 раз'
+SOCIABLE_3_NOT_COMPLETED_LORE: '§7Стать друзьями с кем нибудь 30 раз'
+
+DRAGON_SLAYER_NAME: '§9§lДраконоборец'
+DRAGON_SLAYER_COMPLETED_LORE: '§7Подняться выше 1000 блоков в лобби'
+DRAGON_SLAYER_NOT_COMPLETED_LORE: '§7Секретное достижение'
+
+# =======================
+#         Essentials
+# =======================
+TELEPORT_MESSAGE:
+  - '§6Teleport §8» §fСписок доступных команд:'
+  - ' §8▪ §fТелепортироваться к игроку - §e/teleport <ник игрока>'
+  - ' §8▪ §fТелепортировать одного игрока к другому - §e/teleport <игрок> <игрок>'
+  - ' §8▪ §fТелепортация по координатам - §e/teleport <x> <y> <z>'
+  - ' §8▪ §fТелепортация игрока по координатам - §e/teleport <ник игрока> <x> <y> <z>'
+TELEPORT_SUCCESS_TELEPORT: '§6§lGerstlix §8» §fВы были §aуспешно §fтелепортированы к игроку %player%' # todo bug
+
+AUCTION_HELP_MESSAGE:
+  - '§e§lAuctions §8» §fСписок доступных команд:'
+  - ' §8▪ §fВыставить на продажу предмет - §6/auction sell <цена>'
+  - ' §8▪ §fОткрыть меню аукциона - §6/auction menu/list'
+AUCTION_SELL_FORMAT: '§e§lAuctions §8» §fИспользуйте §e/auction sell <цена>'
+AUCTION_SELL_ERROR_NOT_NUMBER: '§e§lAuctions §8» §cУказана неверная цена товара!'
+AUCTION_SELL_ERROR_NOT_ITEM: '§e§lAuctions §8» §cУ вас нет никакого предмета в руках!'
+AUCTION_SELL_SUCCESS_ADD_ITEM: '§e§lAuctions §8» §fВы успешно выставили товар в руках на аукцион за §6%money%'
+
+WEATHER_FORMAT: '§6§lGerstlix §8» §fИспользуйте §6/weather <thunder/storm/sun>'
+WEATHER_SUCCESS_CHANGE_SKY: '§6§lGerstlix §8» §fПогода в мире §e%world% §fбыла успешно изменена!'
+BACKWARD_ERROR_NOT_LOCATION: '§6§lGerstlix §8» §cУ вас нет предыдущей точки телепортации!'
+CLEAR_SUCCESS_RESET: '§6§lGerstlix §8» §fВы были полностью очищены от вещей и эффектов!'
+DAY_SUCCESS_SET_TIME: '§6§lGerstlix §8» §fВ мире §e%world% §fбыло установено §6дневное §fвремя суток'
+NIGHT_SUCCESS_SET_TIME: '§6§lGerstlix §8» §fВ мире §e%world% §fбыло установено §9ночное §fвремя суток'
+EXT_MESSAGE: '§6§lGerstlix §8» §fВы §aуспешно §fпотушили себя!'
+FEED_MESSAGE: '§6§lGerstlix §8» §fВы §aуспешно §fнакормили себя!'
+FLY_MESSAGE: '§6§lGerstlix §8» §fРазрешение на полёт: %fly%'
+HEAL_MESSAGE: '§6§lGerstlix §8» §fВаше здоровье §aуспешно §fвосстановлено!'
+
+# =======================
+#         StaffChat
+# =======================
+STAFF_CHAT_FORMAT: '§6§lGerstlix §8» §fИспользуйте §6/staffchat <сообщение>'
+STAFF_CHAT_ERROR_DUPLICATE_ON: '§6§lGerstlix §8» §cЧат персонала для вас уже включен!'
+STAFF_CHAT_ERROR_DUPLICATE_OFF: '§6§lGerstlix §8» §cЧат персонала для вас уже выключен!'
+STAFF_CHAT_SUCCESS_ON: '§6§lGerstlix §8» §fЧат персонала был успешно включен!'
+STAFF_CHAT_SUCCESS_OFF: '§6§lGerstlix §8» §fЧат персонала был успешно выключен!'
+STAFF_CHAT_OFF: '§6§lGerstlix §8» §cЧат персонала отключен, вы не можете сюда писать!'
+
+# =======================
+#         DonateChat
+# =======================
+DONATE_CHAT_FORMAT: '§6§lGerstlix §8» §fИспользуйте §6/donatechat <сообщение>'
+DONATE_CHAT_ERROR_DUPLICATE_ON: '§6§lGerstlix §8» §cЧат донатеров для вас уже включен!'
+DONATE_CHAT_ERROR_DUPLICATE_OFF: '§6§lGerstlix §8» §cЧат донатеров для вас уже выключен!'
+DONATE_CHAT_SUCCESS_ON: '§6§lGerstlix §8» §fЧат донатеров был успешно включен!'
+DONATE_CHAT_SUCCESS_OFF: '§6§lGerstlix §8» §fЧат донатеров был успешно выключен!'
+DONATE_CHAT_OFF: '§6§lGerstlix §8» §cЧат донатеров отключен, вы не можете сюда писать!'
+
+# =======================
+#         TesterChat
+# =======================
+TESTER_CHAT_FORMAT: '§6§lGerstlix §8» §fИспользуйте §6/tchat <сообщение>'
+TESTER_CHAT_ERROR_DUPLICATE_ON: '§6§lGerstlix §8» §cЧат тестеров для вас уже включен!'
+TESTER_CHAT_ERROR_DUPLICATE_OFF: '§6§lGerstlix §8» §cЧат тестеров для вас уже выключен!'
+TESTER_CHAT_SUCCESS_ON: '§6§lGerstlix §8» §fЧат тестеров был успешно включен!'
+TESTER_CHAT_SUCCESS_OFF: '§6§lGerstlix §8» §fЧат тестеров был успешно выключен!'
+TESTER_CHAT_OFF: '§6§lGerstlix §8» §cЧат тестеров отключен, вы не можете сюда писать!'
+
+# =======================
+#         Модуль чата
+# =======================
+CHAT_COOLDOWN: '§6§lGerstlix §8» §cДля повторного использования данной команды подождите еще %time%'
+
+MESSAGE_CHAT_FORMAT: '§6§lGerstlix §8» §fИспользуйте §6/message <ник> <сообщение>'
+REPLY_CHAT_FORMAT: '§6§lGerstlix §8» §fИспользуйте §6/reply <сообщение>'
+IGNORE_CHAT_FORMAT: '§6§lGerstlix §8» §fИспользуйте §6/ignore <ник>'
+CHAT_ERROR_MESSAGE_YOURSELF: '§6§lGerstlix §8» §cВы не можете написать самому себе!'
+CHAT_ERROR_MESSAGE_OFF: '§6§lGerstlix §8» §cДанный игрок отключил личные сообщения!'
+CHAT_ERROR_MESSAGE_IGNORE: '§6§lGerstlix §8» §cДанный игрок игнорирует вас!'
+CHAT_ERROR_MESSAGE_PLAYER_OFFLINE: '§6§lGerstlix §8» §cПолучатель сообщения не найден!'
+CHAT_ERROR_MESSAGE_NO_REPLY: '§6§lGerstlix §8» §cВам еще не писали личных сообщений'
+CHAT_ERROR_IGNORE_YOURSELF: '§6§lGerstlix §8» §cВы не можете игнорировать сами себя!'
+CHAT_SUCCESS_IGNORE_ALL_ON: '"§6§lGerstlix §8» §fТеперь игроки могут отправлять вам личные сообщения.'
+CHAT_SUCCESS_IGNORE_ALL_OFF: '§6§lGerstlix §8» §fТеперь игроки не могут отправлять вам личные сообщения.'
+
+CHAT_HOVER:
+  - '§7Статистика %player%§7:'
+  - ' §8| §7Уровень: §d%level%'
+  - ' §8| §7EXP: §e%exp%§8/§c%max_exp%'
+  - ''
+  - '§e▸ Нажмите, чтобы отправить личное сообщение'
+
+# =======================
+#         Голограммы
+# =======================
+HOLOGRAM_CASES_LINE_1: '§6§lМистический сундук'
+HOLOGRAM_CASES_LINE_2: '§7Ожидает своего пробуждения'
+HOLOGRAM_CASES_LINE_3: '§7от Великого мага'
+
+HOLOGRAM_HUB_GAME_SELECT_NPC_NO_SERVERS_LINE_1: '%game_name%'
+HOLOGRAM_HUB_GAME_SELECT_NPC_NO_SERVERS_LINE_3: '§cНет свободных серверов'
+HOLOGRAM_HUB_GAME_SELECT_NPC_AVAILABLE_LINE_3: '§eНажмите, чтобы подключиться!'
+HOLOGRAM_HUB_GAME_SELECT_NPC_NO_SERVERS_LINE_4: '§7Сейчас играет §f%players% §7игроков'
+
+HOLOGRAM_LOBBY_MODE_NPC_LINE_1: '§e§oНажмите, чтобы перейти!'
+HOLOGRAM_LOBBY_MODE_NPC_LINE_2: '§7Сейчас играет: §f%online%'
+HOLOGRAM_LOBBY_MODE_NPC_LINE_3: '§7Серверов: §f%servers%'
+
+# =======================
+#         Модуль стримов
+# =======================
+STREAM_ADD_FORMAT: '§d§lStreams §8» §fИспользуйте §d/stream add <ссылка>'
+STREAM_ADD_ERROR_ALREADY_STREAMING: '§d§lStreams §8» §cУ вас уже есть запущенный стрим!'
+STREAM_ADD_ERROR_UNKNOWN_STREAM_URL: '§d§lStreams §8» §cСсылка на стрим введена неверно!'
+STREAM_ADD_SUCCESS_STREAM: '§d§lStreams §8» §fВаш стрим под ссылкой §d%stream% §fбыл успешно добавлен!'
+STREAM_ADD_ERROR_NOT_STREAMING: '§d§lStreams §8» §cЗапущенных стримов не найдено!'
+STREAM_ADD_ERROR_NOT_TYNIX: '§d§lStreams §8» §cДобавьте в название стрима Gerstlix (GerstlixNetwork)'
+STREAM_ADD_ERROR_NOT_VIEVERS: '§d§lStreams §8» §fУ вас должно быть больше §d15 §fзрителей'
+STREAM_REMOVE_SUCCESS_STREAM: '§d§lStreams §8» §fВы успешно удалили свой стрим!'
+STREAM_HELP_FORMAT:
+  - '§d§lStreams §8» §fСписок доступных команд:'
+  - ' §8▪ §fДобавить стрим - §e/stream add <ссылка>'
+  - ' §8▪ §fУдалить стрим - §e/stream remove'
+  - ' §8▪ §fПосмотреть доступные стримы - §e/streams'
+
+STREAM_NEW_ANNOUNCE:
+  - ''
+  - ' §8| §c§lВНИМАНИЕ! %streamer% §fзапустил трансляцию на %platform%'
+  - ' §8| §fЗрителей: §e§a%viewers%'
+  - ''
+  - ' §8§l↪ §7(Перейти на трансляцию) §8§l↩'
+
+STREAMS_ANNOUNCE:
+  - ''
+  - ' §8| §c§lВНИМАНИЕ! §fНа сервере сейчас идет §b%count% §fпрямых трансляций!'
+  - ''
+  - ' §8§l↪ §7(Открыть список трансляций) §8§l↩'
+STREAM_UPDATE_REMOVED: '§d§lStreams §8» §fВаш стрим &7%stream_title% &fбыл удален, так как он больше не актуален!'
+
+# =======================
+#         Скорборды
+# =======================
+HUB_BOARD_TITLE: '§6§lGerstlix§f§lNetwork'
+HUB_BOARD_LINES:
+  - '§1'
+  - '§fВаш ранг: %status%'
+  - '§2'
+  - '§fМонет: §6%coins%'
+  - '§fЗолота: §e%golds%'
+  - '§fУровень: §d%level%✫'
+  - '§3'
+  - '§fПроцесс: §b%level_exp%§7/§a%level_max_exp%'
+  - ' §a↪ §8[%level_bar%§8]'
+  - '§4'
+  - '§fОбщий онлайн проекта: §a%online%'
+  - '§5'
+  - '§ewww.gerstlix.ru'
+
+SKYWARS_BOARD_TITLE: '§6§lSky§f§lWars'
+SKYWARS_BOARD_LINES:
+  - '§1'
+  - '§fУровень: §71*'
+  - '§2'
+  - 'Прогресс: §b0§7/§a100%'
+  - ' ...'
+  - '§3'
+  - ' §fСуммарно убийств: §a0'
+  - ' §fСуммарно побед: §a0'
+  - ' §fХранилище душ: §b0§7/§c100'
+  - '§4'
+  - '§fМонеты: §a%coins%'
+  - '§fЗолота: §d%golds%'
+  - '§5'
+  - '§ewww.gerstlix.ru'
+
+DUELS_BOARD_TITLE: '§6§lDu§f§lels'
+DUELS_BOARD_LINES:
+  - '§1'
+  - '§7Вы находитесь в лобби дуэлей'
+  - '§7Выбирай игру и выигрывай!'
+  - '§2'
+  - '&7Статистика:'
+  - ' §fStickFight Wins: §b0'
+  - ' §fSumo Wins: §b0'
+  - ' §fUHC Wins: §c0'
+  - ' §fClassic Wins: §c0'
+  - ' §fGAPPLE Wins: §c0'
+  - '§6'
+  - '§fОнлайн: §a%online%'
+  - '§a'
+  - '§ewww.gerstlix.ru'
+
+
+ARCADE_BOARD_TITLE: '§6§lArcade§f§lGames'
+ARCADE_BOARD_LINES:
+  - '§1'
+  - '§7Вы находитесь в лобби аркад'
+  - '§7Выбирай игру и выигрывай!'
+  - '§2'
+  - '§7Информация:'
+  - ' §fБаланс: §a%coins%'
+  - ' §fЗолота: §a%golds%'
+  - ' §fУровень: §d%level%'
+  - '§9'
+  - '§fОнлайн: §a%online%'
+  - '§a'
+  - '§ewww.gerstlix.ru'
+
+
+BEDWARS_BOARD_TITLE: '§6§lBed§f§lWars'
+BEDWARS_BOARD_LINES:
+  - '§1'
+  - '§fУровень: §7%bw_level%*'
+  - '§2'
+  - ' §fСуммарно убийств: §a%kills%'
+  - ' §fСуммарно побед: §a%wins%'
+  - ' §fХранилище душ: §b%deaths%§7/§c100'
+  - '§3'
+  - '§fМонеты: §a%coins%'
+  - '§fЗолота: §d%golds%'
+  - '§4'
+  - '§ewww.gerstlix.ru'
+
+SQUID_GAME_BOARD_TITLE: '§6§lSQUID§f§lGAME'
+SQUID_GAME_WAITING_LINES:
+  - '§7%date%'
+  - '§1'
+  - '§fИгроки: §a%online%'
+  - '§2'
+  - ' %status%'
+  - '§3'
+  - '§fСервер: §a%server%'
+  - '§4'
+  - '§ewww.gerstlix.ru'
+SQUID_GAME_GAME_LINES:
+  - '§7%date%'
+  - '§1'
+  - '§fЖивых игроков: §a%online%'
+  - '§fНаблюдателей: §c%recivers%'
+  - '§2'
+  - '§fСервер: §a%server%'
+  - '§4'
+  - '§ewww.gerstlix.ru'
+
+STICK_FIGHT_BOARD_TITLE: '§6§lSTICK§f§lFIGHTS'
+STICK_FIGHT_WAITING_LINES:
+  - '§7%date%'
+  - '§1'
+  - '§fКарта: §a%map%'
+  - '§fИгроки: §a%online%'
+  - '§2'
+  - ' %status%'
+  - '§3'
+  - '§fРежим: §a%mode%'
+  - '§fСервер: §a%server%'
+  - '§4'
+  - '§ewww.gerstlix.ru'
+STICK_FIGHT_GAME_LINES:
+  - '§7%date%'
+  - '§1'
+  - ' %stats%'
+  - '§2'
+  - '§7[Игровая статистика]:'
+  - '§3'
+  - ' §fОппонент: §b%opponent%'
+  - ' §fУбийств: §a%kills%'
+  - ' §fНужно сломать: §a%break%'
+  - '§4'
+  - '§fКарта: §a%map%'
+  - '§fРежим: §a§a%mode%'
+  - '§fСервер: §a%server%'
+  - '§5'
+  - '§ewww.gerstlix.ru'
+STICK_FIGHT_ENDIND_LINES:
+  - '§7%date%'
+  - '§1'
+  - '§fПобедитель игры:'
+  - ' %winner%'
+  - '§2'
+  - '§fКарта: §a%map%'
+  - '§fРежим: §a%mode%'
+  - '§fСервер: §a%server%'
+  - '§3'
+  - '§ewww.gerstlix.ru'
+
+ONEBLOCK_BOARD_TITLE: '§6§lONE§f§lBLOCK'
+ONEBLOCK_NO_ISLAND_LINES:
+  - '§7%date%'
+  - '§1'
+  - ' §eПрофиль:'
+  - '  §fБаланс: §e%money%'
+  - '  §fЗолота: §6%golds%'
+  - '§3'
+  - ' §eОстров: §cне создан'
+  - '  §fФаза острова: §b0 §70%'
+  - '  §fДостижений: §c0§f/§a0'
+  - '§4'
+  - ' §fОнлайн режима: §a%online%'
+  - '§5'
+  - '§ewww.gerstlix.ru'
+ONEBLOCK_ISLAND_LINES:
+  - '§7%date%'
+  - '§1'
+  - ' §eПрофиль:'
+  - '  §fБаланс: §e%money%'
+  - '  §fЗолота: §6%golds%'
+  - '§3'
+  - ' §eОстров:'
+  - '  %island%'
+  - '  §fФаза острова: §b%faza%'
+  - '  §fСломано: §e%break%'
+  - '  §fУчастиков: §c%members%'
+  - '§4'
+  - ' §fОнлайн режима: §a%online%'
+  - '§5'
+  - '§ewww.gerstlix.ru'
+
+MMORPG_BOARD_TITLE: '§6§lMMO§f§lRPG'
+MMORPG_BOARD_LINES:
+  - '§1'
+  - '§fМонеты: §a%coins%'
+  - '§fЗолота: §6%golds%'
+  - '§2'
+  - ' §fУбийств: §a%kills%'
+  - ' §fСмертей: §c%deaths%'
+  - '§3'
+  - '§fОбщий онлайн: §a%online%'
+  - '§a'
+  - '§ewww.gerstlix.ru'
+
+TNT_BOARD_TITLE: '§6§lTNT§f§lTAG'
+TNT_BOARD_WAITING_LINES:
+  - '§7%date%'
+  - '§1'
+  - '§fКарта: §a%map%'
+  - '§fИгроки: §a%online%§f/§c%max%'
+  - '§2'
+  - ' %status%'
+  - '§3'
+  - '§fСервер: §a%server%'
+  - '§4'
+  - '§ewww.gerstlix.ru'
+TNT_BOARD_GAME_LINES:
+  - '§7%date%'
+  - '§1'
+  - '§eВзрыв TNT через %countdown% сек.'
+  - '§2'
+  - '§fЦель: %status%'
+  - '§3'
+  - '§fКарта: §a%map%'
+  - '§fСервер: §a%server%'
+  - '§4'
+  - '§ewww.gerstlix.ru'
+TNT_BOARD_ENDIND_LINES:
+  - '§7%date%'
+  - '§1'
+  - '§fПобедитель игры:'
+  - ' %winner%'
+  - '§2'
+  - '§ewww.gerstlix.ru'
+
+SPLEEF_BOARD_TITLE: '§6§lSPL§f§lEEF'
+SPLEEF_BOARD_WAITING_LINES:
+  - '§7%date%'
+  - '§1'
+  - '§fКарта: §a%map%'
+  - '§fИгроки: §a%online%§f/§c%max%'
+  - '§2'
+  - ' %status%'
+  - '§3'
+  - '§fСервер: §a%server%'
+  - '§4'
+  - '§ewww.gerstlix.ru'
+SPLEEF_BOARD_GAME_LINES:
+  - '§7%date%'
+  - '§3'
+  - '§fКарта: §a%map%'
+  - '§fСервер: §a%server%'
+  - '§4'
+  - '§ewww.gerstlix.ru'
+SPLEEF_BOARD_ENDIND_LINES:
+  - '§7%date%'
+  - '§1'
+  - '§fПобедитель игры:'
+  - ' %winner%'
+  - '§2'
+  - '§ewww.gerstlix.ru'
+
+# =======================
+#         Меню
+# =======================
+MENU_TITLE: 'Игровое меню'
+MENU_DUELS_NAVIGATION_TITLE: '§eDuels'
+MENU_DUELS_NAVIGATION_LINES:
+  - '§8Быстрые сражения'
+  - ''
+  - '§7Сражения с игроками один на один'
+  - '§7Хотел узнать кто круче? Сразись'
+  - '§7с любым игроком и выясни это!'
+  - ''
+MENU_BEDWARS_NAVIGATION_TITLE: '§cBedWars'
+MENU_BEDWARS_NAVIGATION_LINES:
+  - '§8Битвы на островах'
+  - ''
+  - '§7У каждой команды свой остров и'
+  - '§7кровать, которую нужно защитить.'
+  - '§7Ваша цель - сломать вражескую'
+  - '§7кровать, при этом не потерять свою!'
+  - '§7Игра не закончиться, пока на арене'
+  - '§7не останется только одна команда.'
+  - ''
+MENU_SKYWARS_NAVIGATION_TITLE: '§bSkyWars'
+MENU_SKYWARS_NAVIGATION_LINES:
+  - '§8Воздушные войны'
+  - ''
+  - '§7Это очень динамичная игра.'
+  - '§7У вас одна жизнь, и ваша задача'
+  - '§7выжить! Собирайте предметы в'
+  - '§7сундуках и сражайтесь за'
+  - '§7право победителя...'
+  - ''
+MENU_ARCADE_NAVIGATION_TITLE: '§aArcadeGames'
+MENU_ARCADE_NAVIGATION_LINES:
+  - '§8Аркадные игры'
+  - ''
+  - '§7Несколько интересных подрежимов'
+  - '§7для приятного время провождения.'
+  - '§7Здесь присутствуют также сезонные'
+  - '§7подрежимы, работающие только в'
+  - '§7определенный промежуток времени'
+  - ''
+MENU_EGGWARS_NAVIGATION_TITLE: '§bEggWars'
+MENU_EGGWARS_NAVIGATION_LINES:
+  - '§8Битвы на островах'
+  - ''
+  - '§7Защищайте своё яйцо и'
+  - '§7пытайтесь уничтожить яйца'
+  - '§7противников! Улучшайте генераторы,'
+  - '§7и получайте удовольствие.'
+  - ''
+MENU_MMORPG_NAVIGATION_TITLE: '§6MMORPG'
+MENU_MMORPG_NAVIGATION_LINES:
+  - '§8Рпг сражения'
+  - ''
+  - '§7Покажи всем свои навыки убийства!'
+  - '§7Прокачай свой ранг, и крафть не'
+  - '§7обычное оружие!'
+  - ''
+MENU_GUNGAME_NAVIGATION_TITLE: '§dGunGame'
+MENU_GUNGAME_NAVIGATION_LINES:
+  - '§8Эпичные сражения с прокачкой'
+  - ''
+  - '§7GunGame - это игра, где только'
+  - '§7ваш уровень игры поможет прокачать'
+  - '§7лут и броню. За каждое убийство'
+  - '§7дается 1 уровень, а за смерть'
+  - '§7вычитается. Начни побеждать сейчас!'
+  - ''
+MENU_ONEBLOCK_NAVIGATION_TITLE: '§2OneBlock'
+MENU_ONEBLOCK_NAVIGATION_LINES:
+  - '§8Один блок'
+  - ''
+  - '§7Выживай на собственном острове'
+  - '§7Ломай блок - добывай ресурсы, прокачивайся, вырывайся'
+  - '§7в топ, пройди все фазы первым!'
+  - ''
+
+MENU_PROFILE_TITLE: '§eПрофиль игрока %player%'
+MENU_PROFILE_LINES:
+  - '§8Ваш профиль'
+  - ''
+  - '§7Смотрите свою статистику, используйте'
+  - '§7донат-меню, и много'
+  - '§7других плюшек'
+  - ''
+  - '§e▸ Нажмите, чтобы открыть профиль.'
+MENU_DONATE_TITLE: '§6Привилегии §8§k§l|'
+MENU_DONATE_LINES:
+  - '§8Список донат привилегий'
+  - ''
+  - '§7Все возможности привилегий'
+  - '§7расписаны в этом разделе.'
+  - ''
+  - '§e▸ Нажмите, чтобы открыть меню'
+MENU_MAIN_LOBBY_TITLE: '§eГлавное лобби §8§k§l|'
+MENU_MAIN_LOBBY_LINES:
+  - '§8Вернуться в лобби сервера'
+  - ''
+  - '§7Лобби сервера, встречайтесь'
+  - '§7с друзьями, веселитесь'
+  - ''
+  - '§e▸ Нажмите, для телепотации в главное лобби'
+
+# =======================
+#         Профиль
+# =======================
+PROFILE_MENU_TITLE: 'Профиль'
+PROFILE_MENU_BASE_TITLE: '§bОбщая информация §8§k§l|'
+PROFILE_MENU_BASE_LINES:
+  - '§8▪ §fУникальный ID: §7%id%'
+  - ''
+  - '§8▪ §fСтатус: %status%'
+  - ''
+  - '§8▪ §fМонет: §a%coins%'
+  - '§8▪ §fЗолота: §6%golds%'
+  - '§8▪ §fУровень: §b%level% §d%level_bar% §e%level_percent%%'
+  - ''
+  - '§8▪ §fЯзык: §7%language%'
+  - ''
+  - '§8▪ §fТекущий сервер: §a%server%'
+  - ''
+  - '§e▸ Нажмите, чтобы просмотреть статистику'
+PROFILE_MENU_ACHIEVEMENTS_TITLE: '§bДостижения §8§k§l|'
+PROFILE_MENU_ACHIEVEMENTS_LINES:
+  - ''
+  - '§7Выполняйте §bзадания §7и получайте'
+  - '§bдостижения §7и §bнаграды §7за них'
+  - ''
+  - '§e▸ Нажмите, чтобы открыть меню достижений'
+PROFILE_MENU_SETTINGS_TITLE: '§eЛичные настройки §8§k§l|'
+PROFILE_MENU_SETTINGS_LINES:
+  - ''
+  - '§7У каждого игрока есть возможность'
+  - '§7изменять настройки приватности и другие'
+  - '§7настройки игрового процесса'
+  - ''
+  - '§e▸ Нажмите, чтобы открыть меню'
+PROFILE_MENU_DONATEMENU_TITLE: '§dДонат-меню §8§k§l|'
+PROFILE_MENU_DONATEMENU_LINES:
+  - '§8Плюшки для донатеров'
+  - ''
+  - '§7Дополнительные возможности для донатеров:'
+  - ''
+  - '§8▪ §fСообщения при входе'
+  - '§8▪ §fБыстрые сообщения'
+  - '§8▪ §fСообщения при выходе'
+  - '§8▪ §fСмена цвета префикса'
+  - ''
+  - '§e▸ Нажмите, чтобы открыть меню'
+PROFILE_MENU_LANGUAGE_TITLE: '§dВыбор языка §8§k§l|'
+PROFILE_MENU_LANGUAGE_LINES:
+  - '§7Смена дефолтного языка на сервере'
+  - '§7Перевод и языки будут дополняться!'
+  - ''
+  - '§7На данный момент доступны:'
+  - ' §a▪ §fРусский §8(%ru_translated_percent%)'
+  - ' §8▪ §fEnglish §8(%en_translated_percent%)'
+  - ''
+  - '§cВНИМАНИЕ! Перевод может быть некорректным.'
+  - '§7Вы можете помочь нам с переводом на'
+  - '§7другие языки. Для этого обратитесь'
+  - '§7в нашу группу разработчиков в VK:'
+  - '§6vk.com/gerstlixnetwork'
+  - ''
+  - '§e▸ Нажмите чтобы выбрать язык.'
+PROFILE_MENU_LEVEL_TITLE: '§dУровень §8§k§l|'
+PROFILE_MENU_LEVEL_LINES:
+  - ''
+  - ' §fВаш §bигровой уровень §fпоказывает уровень вашего'
+  - ' §fразвития и мастерства. Повышайте уровень'
+  - ' §fиграя на сервере и получайте уникальные награды'
+  - ''
+  - ' §6✭ §fТекущий уровень: §b%level% §7▪ §d%level_bar% §e%level_percent%%'
+  - ''
+  - ' §c↪ §fДо §a%level_nextlvl% §fуровня осталось §d%level_exp_required% §fEXP'
+  - ''
+PROFILE_MENU_REWARD_TITLE: '§eНаграды §8§k§l|'
+PROFILE_MENU_REWARD_LINES:
+  - ''
+  - '§7Регулярные бонусы с монетами,'
+  - '§7опытом и сундуками для всех!'
+  - ''
+  - '§e▸ Нажмите, чтобы открыть меню наград.'
+PROFILE_MENU_JOINER_TITLE: '§bСообщения о входе §8§k§l|'
+PROFILE_MENU_JOINER_LINES:
+  - ''
+  - '§7Все донатеры на проекте имеют оповещение'
+  - '§7при входе на сервер, отображаемое'
+  - '§7всем игрокам онлайн!'
+  - ''
+  - '§e▸ Нажмите, чтобы изменить сообщение'
+PROFILE_MENU_TITULS_TITLE: '§bТитулы §8§k§l|'
+PROFILE_MENU_TITULS_LINES:
+  - ''
+  - '§7Титул - текст после вашего ника,'
+  - '§7который видят все игроки на сервере.'
+  - ''
+  - '§7Дает возможность выделиться среди'
+  - '§7толпы и показать свой статус!'
+  - ''
+  - '§e▸ Нажмите, чтобы изменить сообщение'
+
+# =======================
+#         Меню донатера
+# =======================
+DONATE_MENU_TITLE: 'Меню донатера'
+DONATE_MENU_FASTMESSAGE_TITLE: '§6§lБыстрые сообщения'
+DONATE_MENU_FASTMESSAGE_LINES:
+  - '§7Покажи всем какой ты сегодня'
+  - '§7используя эти быстрые сообщения.'
+  - ''
+  - '§8▪ §fДоступно от §6§lGOLD §7и выше'
+  - ''
+  - '§7Для быстрого открытия меню используйте'
+  - '§7команду §a/fm §7или §a/fastmessage'
+  - ''
+  - '§e▸ Нажмите, чтобы открыть.'
+DONATE_MENU_JOINER_TITLE: '§6§lСообщения при входе'
+DONATE_MENU_JOINER_LINES:
+  - '§7Станьте реально крутым донатером'
+  - '§7у которого при входе на сервер'
+  - '§7своё личное сообщение'
+  - ''
+  - '§8▪ §fДоступно от §b§lLITE'
+  - ''
+  - '§e▸ Нажмите, чтобы настроить сообщение'
+DONATE_MENU_TITULS_TITLE: '§6§lСмена титула'
+DONATE_MENU_TITULS_LINES:
+  - '§7Добавь прикольную приписку к нику'
+  - '§7над головой!'
+  - ''
+  - '§8▪ §fДоступно от §c§lMAGMA'
+  - ''
+  - '§e▸ Нажмите, чтобы изменить цвет префикса'
+DONATE_MENU_PREFIX_TITLE: '§6§lСмена префикса'
+DONATE_MENU_PREFIX_LINES:
+  - '§7Измени цвет своего префикса в табе и чате'
+  - ''
+  - '§8▪ §fДоступно от §e§lSUPPORT'
+  - ''
+  - '§e▸ Нажмите, чтобы изменить цвет префикса'
+
+
+# =======================
+#         Тайтлы к меню
+# =======================
+# Fastmessage
+FASTMESSAGE_MENU_TITLE: '§8Донат меню ▸ Быстрые сообщения'
+
+# Joiner
+JOINER_MENU_TITLE: '§8Донат меню ▸ Сообщения при входе'
+JOINER_SELECT_MESSAGE: '§6§lGerstlix §8» §fВы выбрали §eСообщение #%id% §fиз категории %category%'
+JOINER_BUY_MESSAGE: '§6§lGerstlix §8» §fВы приобрели §eСообщение #%id% §fиз категории %category% §fза §6%cost% золота'
+
+# Титулы
+TITULS_MENU_TITLE: '§8Донат меню ▸ Титулы'
+TITULS_SELECT_MESSAGE: '§6§lGerstlix §8» §fВы выбрали §eТитул #%id% §fиз категории %category%'
+TITULS_BUY_MESSAGE: '§6§lGerstlix §8» §fВы приобрели §eТитул #%id% §fиз категории %category% §fза §6%cost% золота'
+
+# =======================
+#         Меню статусов
+# =======================
+DONATE_MENU_MAIN_TITLE: 'Профиль ▸ Донат'
+DONATE_MENU_GOLDS_TITLE: 'Донат ▸ Золото'
+STATUS_MENU_TITLE: 'Донат'
+
+DONATE_MENU_STATUS_TITLE: '§aПривилегии §8§k§l|'
+DONATE_MENU_STATUS_LINES:
+  - ''
+  - '§7Привилегии - это статусы, несущие'
+  - '§7в себе §cдополнительные §7возможности'
+  - '§7для игрока в виде команд, бустеров и улучшений'
+  - ''
+  - '§e▸ Нажмите, чтобы узнать подробнее'
+DONATE_MENU_MONEY_TITLE: '§6Золото §8§k§l|'
+DONATE_MENU_MONEY_LINES:
+  - ''
+  - '§6Золото §7- самая ценная игровая валюта'
+  - '§7за золото Вы сможете купить уникальные вещи, привилегии,'
+  - '§7улучшения, прокачки, кейсы и многое другое,'
+  - '§7недоступное за стандартную валюту'
+  - ''
+  - '§e▸ Нажмите, чтобы узнать подробнее'
+DONATE_MENU_PAYMENT_TITLE: '§dВарианты оплаты §8§k§l|'
+DONATE_MENU_PAYMENT_LINES:
+  - ''
+  - '§7В способы оплаты доната входят'
+  - '§7самые разные варианты, например:'
+  - ''
+  - '§8▸ §fБанковские карты, Qiwi, Ю-MONEY,'
+  - '§8▸ §fSteam Pay, LiteCoin, DogeCoin,'
+  - '§8▸ §fБилайн, Мегафон, Теле2, МТС и другие'
+  - ''
+  - '§e▸ Нажмите, чтобы получить ссылку на сайт'
+DONATE_MENU_SURCHARGE_TITLE: '§9Система доплаты §8§k§l|'
+DONATE_MENU_SURCHARGE_LINES:
+  - ''
+  - '§7На сервере работает система доплаты.'
+  - '§7Если у Вас есть уже привилегия, то'
+  - '§7цена следующей будет рассчитываться по формуле'
+  - '§7[цена следующей] - [цена вашей]'
+  - ''
+  - ' §fНапример, если у Вас привилегия §6§lGOLD§f,'
+  - ' §fто стоимость следующей привилегии'
+  - ' §fбудет составлять §f5 §6золота §8(15 - 10 = 5)'
+
+DONATE_MENU_OTHER_TITLE: '§6Прочие игровые ценности §8§k§l|'
+DONATE_MENU_OTHER_LINES:
+  - ''
+  - '§7Помимо привилегий на нашем сайте'
+  - '§7можно приобрести игровую валюту,'
+  - '§7возможности на режимах, титулы'
+  - '§7бустеры и многое другое!'
+  - ''
+  - '§7Просто переходите на наш сайт и'
+  - '§7выбирайте необходимую категорию'
+  - '§7товаров. Найдите понравившийся вам'
+  - '§7товар и переходите к оплате.'
+  - ''
+  - '§7Сайт: §6www.gerstlix.ru'
+  - ''
+  - '§e▸ Нажмите, чтобы получить ссылку на сайт'
+
+DONATE_BUY_MESSAGE:
+  - '§e'
+  - '§8◦ §fПокупка на сайте §8▸ §ewww.gerstlix.ru'
+  - '§9'
+
+# =======================
+#         Меню привилегий
+# =======================
+DONATE_TITLE: 'Донат ▸ Привилегии'
+
+DONATE_DESCRIPTION_TITLE: '§7Привилегия %donate% §7- §6%cost% рублей'
+DONATE_DESCRIPTION_LINES:
+  - ''
+  - ' §7Покупая донат на нашем проекте'
+  - ' §7Вы поддерживате сервер и помогаете в его развитии'
+  - ' §7Донат выдаётся навсегда'
+  - ''
+  - ' §8◾ §fСтоимость: §e%cost% рублей'
+  - ' §6↪ §fПокупка на сайте: §6www.gerstlix.ru'
+  - ''
+  - '§e▸ Нажмите, посмотреть возможности'
+
+# =======================
+#         Меню возможностей
+# =======================
+DONATE_MAIN_TITLE: '§6Общие возможности'
+DONATE_VK_TITLE: '§9ВКОНТАКТЕ'
+DONATE_ONEBLOCK_TITLE: '§2OneBlock'
+DONATE_SURVIVAL_TITLE: '§eSurvival'
+DONATE_SKYWARS_TITLE: '§bSkyWars'
+DONATE_BEDWARS_TITLE: '§cBedWars'
+DONATE_GUNGAME_TITLE: '§dGunGame'
+DONATE_MMORPG_TITLE: '§6MMORPG'
+DONATE_ARCADE_TITLE: '§aArcadeGames'
+DONATE_EGGWARS_TITLE: '§9EggWars'
+DONATE_DUELS_TITLE: '§eDuels'
+
+# =======================
+#         Меню возможностей [LITE]
+# =======================
+DONATE_LITE_TITLE: 'Привилегии ▸ LITE'
+DONATE_LITE_MAIN_LINES:
+  - ''
+  - '§8◾ §fПрефикс %prefix% §fв табе и чате'
+  - '§8◾ §fБустер §cx%booster% §fна добычу опыта и золота'
+  - '§8◾ §fДоступ к меню донатеров: §e/dm'
+  - '§8◾ §fУстановка сообщений при входе: §e/joiner'
+  - '§8◾ §fДоступ к чату донатеров: §e/dc [сообщение]'
+  - '§8◾ §fЛимит друзей: §a%count%'
+  - ''
+  - '§8▸ §fСтоимость привилегии: §6§l%cost% рублей'
+  - ''
+  - '§6↪ §fПокупка на сайте: §6www.gerstlix.ru'
+DONATE_LITE_VK_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_LITE_ONEBLOCK_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_LITE_SURVIVAL_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_LITE_SKYWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_LITE_GUNGAME_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_LITE_MMORPG_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_LITE_ARCADE_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_LITE_BEDWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_LITE_DUELS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_LITE_EGGWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+
+# =======================
+#         Меню возможностей [GOLD]
+# =======================
+DONATE_GOLD_TITLE: 'Привилегии ▸ GOLD'
+DONATE_GOLD_MAIN_LINES:
+  - ''
+  - '§8◾ §fПрефикс %prefix% §fв табе и чате'
+  - '§8◾ §fБустер §cx%booster% §fна добычу опыта и золота'
+  - '§8◾ §fЛимит друзей: §a%count%'
+  - ''
+  - '§a+ §fВозможности привилегии ниже по цене'
+  - ''
+  - '§8▸ §fСтоимость привилегии: §6§l%cost% рублей'
+  - ''
+  - '§6↪ §fПокупка на сайте: §6www.gerstlix.ru'
+DONATE_GOLD_VK_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_GOLD_ONEBLOCK_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_GOLD_SURVIVAL_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_GOLD_SKYWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_GOLD_GUNGAME_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_GOLD_MMORPG_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_GOLD_ARCADE_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_GOLD_BEDWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_GOLD_DUELS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_GOLD_EGGWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+
+# =======================
+#         Меню возможностей [MAGMA]
+# =======================
+DONATE_MAGMA_TITLE: 'Привилегии ▸ MAGMA'
+DONATE_MAGMA_MAIN_LINES:
+  - ''
+  - '§8◾ §fПрефикс %prefix% §fв табе и чате'
+  - '§8◾ §fБустер §cx%booster% §fна добычу опыта и золота'
+  - '§8◾ §fВход на переполненные режимы'
+  - '§8◾ §fБыстрые сообщения: §e/fm'
+  - '§8◾ §fЛимит друзей: §a%count%'
+  - ''
+  - '§a+ §fВозможности привилегии ниже по цене'
+  - ''
+  - '§8▸ §fСтоимость привилегии: §6§l%cost% рублей'
+  - ''
+  - '§6↪ §fПокупка на сайте: §6www.gerstlix.ru'
+DONATE_MAGMA_VK_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_MAGMA_ONEBLOCK_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_MAGMA_SURVIVAL_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_MAGMA_SKYWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_MAGMA_GUNGAME_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_MAGMA_MMORPG_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_MAGMA_ARCADE_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_MAGMA_BEDWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_MAGMA_DUELS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_MAGMA_EGGWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+
+# =======================
+#         Меню возможностей [RUBY]
+# =======================
+DONATE_RUBY_TITLE: 'Привилегии ▸ RUBY'
+DONATE_RUBY_MAIN_LINES:
+  - ''
+  - '§8◾ §fПрефикс %prefix% §fв табе и чате'
+  - '§8◾ §fБустер §cx%booster% §fна добычу опыта и золота'
+  - '§8◾ §fВозможность создать гильдию: §e/guild'
+  - '§8◾ §fВозможность подарить донат любому игроку: §e/grant <ник>'
+  - '§8◾ §fЛимит друзей: §a%count%'
+  - ''
+  - '§a+ §fВозможности привилегии ниже по цене'
+  - ''
+  - '§8▸ §fСтоимость привилегии: §6§l%cost% рублей'
+  - ''
+  - '§6↪ §fПокупка на сайте: §6www.gerstlix.ru'
+DONATE_RUBY_VK_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_RUBY_ONEBLOCK_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_RUBY_SURVIVAL_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_RUBY_SKYWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_RUBY_GUNGAME_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_RUBY_MMORPG_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_RUBY_ARCADE_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_RUBY_BEDWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_RUBY_DUELS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_RUBY_EGGWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+
+# =======================
+#         Меню возможностей [SUPPORT]
+# =======================
+DONATE_SUPPORT_TITLE: 'Привилегии ▸ SUPPORT'
+DONATE_SUPPORT_MAIN_LINES:
+  - ''
+  - '§8◾ §fПрефикс %prefix% §fв табе и чате'
+  - '§8◾ §fБустер §cx%booster% §fна добычу опыта и золота'
+  - '§8◾ §fВозможность сменить цвет префикса: §e/prefix'
+  - '§8◾ §fВозможность использовать подчеркивание и §lжирные §fбуквы'
+  - '§8◾ §fВозможность подарить донат любому игроку: §e/grant <ник>'
+  - '§8◾ §fЛимит друзей: §a%count%'
+  - ''
+  - '§a+ §fВозможности привилегии ниже по цене'
+  - ''
+  - '§8▸ §fСтоимость привилегии: §6§l%cost% рублей'
+  - ''
+  - '§6↪ §fПокупка на сайте: §6www.gerstlix.ru'
+DONATE_SUPPORT_VK_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_SUPPORT_ONEBLOCK_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_SUPPORT_SURVIVAL_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_SUPPORT_SKYWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_SUPPORT_GUNGAME_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_SUPPORT_MMORPG_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_SUPPORT_ARCADE_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_SUPPORT_BEDWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_SUPPORT_DUELS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+DONATE_SUPPORT_EGGWARS_LINES:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+
+# =======================
+#         Покупка золота
+# =======================
+BUY_GOLDS_TITLE: '§fМешок с золотом §7(%count%)'
+BUY_GOLDS_DESCRIPTION_LINES:
+  - ''
+  - '§8▸ §6%count% §fзолота на ваш игровой аккаунт'
+  - '§8▸ §fЦена: §e%price% рублей'
+  - ''
+
+BUY_GOLDS_DESCRIPTION1_LINES:
+  - ' §7Маленький мешок с золотом'
+  - ' §7Подойдет для новичков и для'
+  - ' §7тех, кто еще не знает зачем'
+  - ' §7нужна эта валюта'
+  - ''
+  - '§e▸ Нажмите, чтобы получить ссылку на сайт'
+BUY_GOLDS_DESCRIPTION2_LINES:
+  - ' §7Мешок с золотом побольше'
+  - ' §7На него уже можно купить вещи'
+  - ' §7на §aOneBlock§7, кейс или бустер'
+  - ''
+  - '§e▸ Нажмите, чтобы получить ссылку на сайт'
+BUY_GOLDS_DESCRIPTION3_LINES:
+  - ' §7Средний мешок с золотом'
+  - ' §7С ним Вы сможете позволить'
+  - ' §7намного больше на сервере!'
+  - ' §7Может, пора в ТОП?'
+  - ''
+  - '§e▸ Нажмите, чтобы получить ссылку на сайт'
+BUY_GOLDS_DESCRIPTION4_LINES:
+  - ' §7Крупный мешок с золотом'
+  - ' §7Для игроков, которым хочется'
+  - ' §7получить все и сразу!'
+  - ''
+  - '§e▸ Нажмите, чтобы получить ссылку на сайт'
+BUY_GOLDS_DESCRIPTION5_LINES:
+  - ' §7Огромный мешок с золотом'
+  - ' §7который только можно купить!'
+  - ' §7Специально для богачей нашего проекта!'
+  - ''
+  - '§e▸ Нажмите, чтобы получить ссылку на сайт'
+
+# =======================
+#         Модуль лобби
+# =======================
+ITEM_GAME_MENU_TITLE: '§a§lИгровые режимы §7[ПКМ]'
+ITEM_PROFILE_MENU_TITLE: '§a§lПрофиль §7[ПКМ]'
+ITEM_DONATE_MENU_TITLE: '§a§lДонат §7[ПКМ]'
+ITEM_LOBBY_SELECTOR_MENU_TITLE: '§a§lВыбор лобби §7[ПКМ]'
+
+ITEM_GAME_MENU_LINES:
+  - '§7Меню для перемещения по режимам,'
+  - '§7возращения в главный хаб сервера'
+ITEM_PROFILE_MENU_LINES:
+  - '§7Ваш профиль, просмотр статистики'
+  - '§7вся информация о Вас'
+ITEM_DONATE_MENU_LINES:
+  - '§7Нажмите правой кнопкой мыши,'
+  - '§7чтобы открыть меню привилегий'
+ITEM_LOBBY_SELECTOR_MENU_LINES:
+  - '§7Нажмите правой кнопкой мыши,'
+  - '§7чтобы открыть меню выбора лобби'
+
+# =======================
+#         API
+# =======================
+LVL_CONVERT_SMALL: '§3Experience §8» §cКонвертация уровня доступна только от 5 уровня!'
+LEVEL_FORMAT:
+  - '§3Experience §8» §fИнформация по игровому уровню:'
+  - ' §7На данный момент у Вас §d%level% §7уровень,'
+  - ' §7До следующего уровня необходимо собрать §b%exp% EXP'
+
+# =======================
+#         Модуль Жалоб
+# =======================
+REPORT_USE_FORMAT: '§c§lReports §8» §fИспользуйте §c/report <ник>'
+REPORT_ADD_ERROR_YOURSELF: '§c§lReports §8» §cВы не можете жаловаться сами на себя!'
+REPORT_ERROR_HAS_REQUEST: '§c§lReports §8» §cВы уже жаловались на данного игрока!'
+REPORT_SUCCESS_SEND: '§c§lReports §8» §fВы успешно отправили жалобу на игрока %player%'
+REPORT_STAFF_EMPTY: ' §cНа данный момент нет активного персонала на сервере, придется подождать, пока кто-то увидит!'
+
+REPORT_GIVE_LORE:
+  - ''
+  - '§7Наши модераторы будут следить за'
+  - '§7игроком, после чего примут решение.'
+  - '§7Вы будете оповещены, когда вашу жалобу'
+  - '§7рассмотрят.'
+  - ''
+  - '§e▸ Нажмите, чтобы отправить жалобу!'
+
+REPORT_STAFF_MESSAGE:
+  - '§c§lReports §8» §fСейчас на сервере актуально §a%reports%'
+  - ' §cПостарайтесь ответить на них в ближайшее время!'
+  - ' §7Открыть список жалоб - §e/reports'
+
+# =======================
+#         Модуль Вопросов
+# =======================
+ASK_USE_FORMAT: '§dAsk §8» §fИспользуйте §d/ask <вопрос>'
+ANS_USE_FORMAT: '§dAsk §8» §fИспользуйте §6/ans <игрок> <ответ>'
+ASK_IS_EMPTY: '§dAsk §8» §cВопрос данного игрока не найден!'
+ASK_LIMIT_FORMAT: '§dAsk §8» §cВы привысили лимит по вопросам за раз: 1'
+ASK_SUCCESS_SEND: '§dAsk §8» §fВаш вопрос был §aуспешно §fсоздан и отправлен персоналу проекта!'
+ASK_STAFF_EMPTY: ' §cНа данный момент нет активного персонала на сервере, придется подождать, пока кто-то увидит!'
+
+# =======================
+#         Модуль друзей
+# =======================
+FRIENDS_ADD_FORMAT: '§2§lFriends §8» §fИспользуйте §2/friend add <ник>'
+FRIENDS_REMOVE_FORMAT: '§2§lFriends §8» §fИспользуйте §2/friend remove <ник>'
+FRIENDS_ACCEPT_FORMAT: '§2§lFriends §8» §fИспользуйте §2/friend accept <ник>'
+FRIENDS_DENY_FORMAT: '§2§lFriends §8» §fИспользуйте §2/friend deny <ник>'
+FRIENDS_TP_FORMAT: '§2§lFriends §8» §fИспользуйте §2/friend tp <ник>'
+FRIEND_HELP:
+  - '§2§lFriends §8» §fСписок доступных команд:'
+  - ' §8▪ §fДобавить игрока в друзья - §e/friend add <ник>'
+  - ' §8▪ §fУдалить игрока из друзей - §e/friend remove <ник>'
+  - ' §8▪ §fПринять запрос в друзья - §e/friend accept <ник>'
+  - ' §8▪ §fОтклонить запрос в друзья - §e/friend deny <ник>'
+  - ' §8▪ §fПосмотреть список своих друзей - §e/friend list'
+  - ' §8▪ §fПосмотреть список запросов в друзья - §e/friend requests'
+  - ' §8▪ §fТелепортация на сервер друга - §e/friend tp <ник>'
+  -
+FRIEND_ADD_ERROR_DUPLICATE_REQUEST: '§2§lFriends §8» §cДанный игрок уже отправлял вам приглашение в друзья'
+FRIEND_ADD_ERROR_HAS_REQUEST: '§2§lFriends §8» §cВы уже отправляли запрос в друзья данному игроку'
+FRIEND_ADD_ERROR_IS_FRIEND: '§2§lFriends §8» §cВы уже являетесь друзьями!'
+FRIEND_ADD_ERROR_YOURSELF_AS_FRIEND: '§2§lFriends §8» §cВы не можете отправить заявку в друзья самому себе'
+FRIEND_ADD_SUCCESS_SEND: '§2§lFriends §8» §fЗапрос в друзья отправлен игроку %player%'
+NOT_YOUR_FRIEND: '§2§lFriends §8» §cДанный игрок не является Вашим другом!'
+FRIEND_SUCCESS_REMOVE_FRIEND: '§2§lFriends §8» §fИгрок %player% §fбыл удален из вашего списка друзей'
+FRIENDS_DONT_HAVE_INVITES: '§2§lFriends §8» §fНа данный момент у Вас нет актуальных запросов в друзья!'
+FRIEND_LIST: "§2§lFriends §8» §fСписок Ваших друзей: §e(%count%)"
+FRIEND_LIST_NO_FRIENDS:
+  - "§cПростите, но список Ваших друзей пуст :("
+  - "§cПополните его, добавив их командой /friends add <ник игрока>"
+FRIEND_LIST_REQUESTS: "§2§lFriends §8» §fСписок актуальных запросов: §e(%count%)"
+FRIENDS_NEW_FRIEND: '§2§lFriends §8» §fПоздравляем! Вы стали друзьями с игроком %player%'
+FRIENDS_YOU_REJECTED_REQUEST: '§2§lFriends §8» §fВы отклонили запрос в друзья от игрока %player%'
+FRIENDS_REQUEST_REJECTED: '§2§lFriends §8» §fИгрок %player% §fотклонил Ваш запрос в друзья'
+FRIENDS_DONT_HAVE_INVITES_FROM: '§2§lFriends §8» §cДанный игрок не отправлял Вам приглашение на дружбу!'
+
+# =======================
+#         Меню гильдий
+# =======================
+NO_GUILD_HELP:
+  - '§3§lGuilds §8» §fСписок доступных команд:'
+  - ' §8▪ §fСоздать гильдию - §6/guild create <название>'
+  - ' §8▪ §fПринять запрос - §6/guild accept <ник игрока>'
+  - ' §8▪ §fОтклонить запрос - §6/guild cancel <ник игрока>'
+  - ' §8▪ §fСписок приглашений - §6/guild requests'
+HAS_GUILD_MEMBER_HELP:
+  - '§3§lGuilds §8» §fСписок доступных команд:'
+  - ' §8▪ §fМеню гильдии - §e/guild menu'
+  - ' §8▪ §fЧат гильдии - §e/guild chat <сообщение>'
+  - ' §8▪ §fПополнить казну гильдии коинами - §e/guild addcoins <кол-во>'
+  - ' §8▪ §fПополнить казну гильдии золотом - §e/guild addgolds <кол-во>'
+  - ' §8▪ §fУлучшение гильдии - §e/guild shop'
+  - ' §8▪ §fУчастники гильдии - §e/guild members'
+  - ' §8▪ §fВыйти из гильдии - §e/guild leave'
+HAS_GUILD_LEADER_HELP:
+  - '§3§lGuilds §8» §fСписок доступных команд:'
+  - ' §8▪ §fМеню гильдии - §e/guild menu'
+  - ' §8▪ §fОтправить запрос - §e/guild invite <ник игрока>'
+  - ' §8▪ §fЧат гильдии - §e/guild chat <сообщение>'
+  - ' §8▪ §fПополнить казну гильдии коинами - §e/guild addcoins <кол-во>'
+  - ' §8▪ §fПополнить казну гильдии золотом - §e/guild addgolds <кол-во>'
+  - ' §8▪ §fСнять монеты с баланса гильдии - §e/guild removecoins <кол-во>'
+  - ' §8▪ §fСнять золото с баланса гильдии - §e/guild removegolds <кол-во>'
+  - ' §8▪ §fУлучшение гильдии - §e/guild shop'
+  - ' §8▪ §fНастройки гильдии - §e/guild settings'
+  - ' §8▪ §fКикнуть игрока с гильдии - §e/guild kick <ник игрока>'
+  - ' §8▪ §fУдалить гильдию - §e/guild disband'
+GUILD_DONT_HAVE_INVITES: '§3§lGuilds §8» §cНа данный момент у вас нет актуальных запросов в гильдию!'
+GUILD_LIST_REQUESTS: "§3§lGuilds §8» §fСписок актуальных запросов: §a(%count%)"
+
+
+# =======================
+#         GRANT
+# =======================
+GRANT_HELP:
+  - '§3§lGrant §8» §fСписок доступных команд:'
+  - ' §8▪ §fПосмотреть список доступных привилегий - §e/grant list'
+  - ' §8▪ §fВыдать донат игроку - §e/grant give [ник] [донат]'
+GRANT_LIST_HEADER: '§3§lGrant §8» §fСписок донатов доступных для выдачи:'
+GRANT_LIST_FORMAT: ' §8▪ §f%level% §7(название группы: %donate%)§f, выдано: §e%limit%§8/§c%percent%'
+GRANT_COMMAND_GIVE_USE: '§3§lGrant §8» §fИспользуйте §3/grant give [ник] [донат]'
+GRANT_GROUP_NOT_FOUND: '§3§lGrant §8» §fПривилегия %donate% §fне найдена, посмотрите список групп с помощью: §3/grant list'
+GRANT_NO_GROUPS_TO_GIVE: '§3§lGrant §8» §fВы не можете выдавать привилегию %donate%'
+GRANT_LIMIT: '§3§lGrant §8» §cДостигнут лимит выдачи для привилегии %donate%'
+
+# =======================
+#         Модуль групп
+# =======================
+NO_PARTY_HELP:
+  - '§d§lParty §8» §fСписок доступных команд:'
+  - ' §8▪ §fОтправить запрос - §e/party invite <ник игрока>'
+  - ' §8▪ §fПринять запрос - §e/party accept <ник игрока>'
+  - ' §8▪ §fОтклонить запрос - §e/party cancel <ник игрока>'
+HAS_PARTY_HELP:
+  - '§d§lParty §8» §fСписок доступных команд:'
+  - ' §8▪ §fОтправить запрос - §e/party invite <ник игрока>'
+  - ' §8▪ §fЧат группы - §e/party chat <сообщение>'
+  - ' §8▪ §fСписок игроков в группе - §e/party list'
+  - ' §8▪ §fУдалить игрока из группы - §e/party kick <ник игрока>'
+  - ' §8▪ §fТелепортировать группу на сервер - §e/party warp'
+  - ' §8▪ §fВыйти из группы - §e/party leave'
+  - ' §8▪ §fУдалить группу - §e/party disband'
+PARTY_ADD_FORMAT: '§d§lParty §8» §fИспользуйте §d/party invite <ник игрока>'
+PARTY_REMOVE_FORMAT: '§d§lParty §8» §fИспользуйте §d/party remove <ник игрока>'
+PARTY_ADD_DUPLICATE: '§d§lParty §8» §cВы не можете пригласить самого себя в группу!'
+PARTY_ADD_IS_PARTY: '§d§lParty §8» §cДанный игрок уже находится в группе!'
+PARTY_ADD_HAS_REQUEST: '§d§lParty §8» §cВы уже отправили запрос в группу этому игроку!'
+PARTY_ADD_SUCCESS_SENDER: '§d§lParty §8» §fВы успешно приняли запрос в группу от игрока %player%'
+PARTY_ADD_SUCCESS_MEMBER: '§d§lParty §8» §fИгрок %player% §fприсоединился к вашей группе!'
+PARTY_SUCCESS_MEMBER: '§d§lParty §8» §fИгрок %player% §fприсоединился к вашей группе!'
+PARTY_SUCCESS_SENDER: '§d§lParty §8» §fВы успешно отправили запрос в группу игроку %player%'
+PARTY_ALERT: '§d§lParty §8» §fИгрок %player% §fприсоединился к группе'
+
+PARTY_MENU_LIST_TITLE: 'Party list'
+PARTY_MENU_LIST_ONLINE_INFO:
+  - ''
+  - '§fОнлайн: §a%online%'
+  - ''
+  - '§fВКонтакте: §c%vk%'
+  - '§fЯзык: §c%language%'
+  - ''
+  - '§fСервер: §c%server%'
+  - ''
+  - '§cКлик чтобы удалить из группы'
+
+# =======================
+#         Мини режимы
+# =======================
+
+# GunGame messages.
+GUNGAME_PLAYER_DEATH_CAUSE_WATER: '§6§lGun§f§lGame §8» §fВы умерли от воды 0_о'
+GUNGAME_PLAYER_DEATH: '§6§lGun§f§lGame §8» §fИгрок %player% умер'
+GUNGAME_LEVEL_DONT_UP: '§6§lGun§f§lGame §8» §fВаш уровень был восстановлен до начального.'
+GUNGAME_LEVEL_NOT_ENOUGHT: '§6§lGun§f§lGame §8» §fЗа смерть у Вас был снят §c1 §fуровень!'
+GUNGAME_LEVEL_MAX: '§6§lGun§f§lGame §8» §cВаш уровень максимален!'
+GUNGAME_PLAYER_KILL_ANNOUCER: '§6§lGun§f§lGame §8» §fИгрок %player% §fбыл убит %killer%'
+GUNGAME_PLAYER_LEVEL_UP:
+  - '§6Gun§fGame §8§l» §fВаш уровень был повышен! Теперь он равен §a%level%'
+  - '+5 XP'
+GUNGAME_DAMAGE_ON_SPAWN: '§6§lGun§f§lGame §8» §cДраться на локации спавна нельзя!'
