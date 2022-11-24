@@ -1,4 +1,10 @@
 # =======================
+#         Выбор языка
+# =======================
+LANGUAGE_SELECT_MENU_TITLE: 'Select game language'
+LANG_SELECT: '§6§lGerstlix §8» §fYou language changed to §cEnglish§f!'
+
+# =======================
 #         Общее
 # =======================
 BUNGEE_SERVER_MOTD_TEXT:
@@ -184,12 +190,6 @@ ONLINE_BY_SERVER: '§6§lGerstlix §8» §fОнлайн сервера §e%prefi
 
 HUB_NOT_FOUND: '§cОшибка, на данный момент нет доступных Hub серверов!'
 LOBBY_NOT_FOUND: '§cОшибка, данный режим не имеет лобби серверов!'
-
-# =======================
-#         Выбор языка
-# =======================
-LANGUAGE_SELECT_MENU_TITLE: 'Выбор игрового языка'
-LANG_SELECT: '§6§lGerstlix §8» §fВаш язык изменен на §cРусский§f!'
 
 # =======================
 #         Оповещения
@@ -1891,7 +1891,6 @@ HAS_GUILD_LEADER_HELP:
   - ' §8▪ §fНастройки гильдии - §e/guild settings'
   - ' §8▪ §fКикнуть игрока с гильдии - §e/guild kick <ник игрока>'
   - ' §8▪ §fУдалить гильдию - §e/guild disband'
-  -
 GUILD_DONT_HAVE_INVITES: '§3§lGuilds §8» §cНа данный момент у вас нет актуальных запросов в гильдию!'
 GUILD_LIST_REQUESTS: "§3§lGuilds §8» §fСписок актуальных запросов: §a(%count%)"
 
