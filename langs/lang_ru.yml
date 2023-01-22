@@ -1954,13 +1954,11 @@ PARTY_MENU_LIST_ONLINE_INFO:
 # =======================
 
 # GunGame messages.
-GUNGAME_PLAYER_DEATH_CAUSE_WATER: '§6§lGun§f§lGame §8» §fВы умерли от воды 0_о'
-GUNGAME_PLAYER_DEATH: '§6§lGun§f§lGame §8» §fИгрок %player% умер'
-GUNGAME_LEVEL_DONT_UP: '§6§lGun§f§lGame §8» §fВаш уровень был восстановлен до начального.'
-GUNGAME_LEVEL_NOT_ENOUGHT: '§6§lGun§f§lGame §8» §fЗа смерть у Вас был снят §c1 §fуровень!'
-GUNGAME_LEVEL_MAX: '§6§lGun§f§lGame §8» §cВаш уровень максимален!'
-GUNGAME_PLAYER_KILL_ANNOUCER: '§6§lGun§f§lGame §8» §fИгрок %player% §fбыл убит %killer%'
-GUNGAME_PLAYER_LEVEL_UP:
-  - '§6Gun§fGame §8§l» §fВаш уровень был повышен! Теперь он равен §a%level%'
-  - '+5 XP'
-GUNGAME_DAMAGE_ON_SPAWN: '§6§lGun§f§lGame §8» §cДраться на локации спавна нельзя!'
+GUNGAME_PLAYER_DEATH_CAUSE_WATER: '§6§lGunGame §8» §fВы умерли от воды 0_о'
+GUNGAME_PLAYER_DEATH: '§6§lGunGame §8» §fИгрок %player% умер'
+GUNGAME_LEVEL_DONT_UP: '§6§lGunGame §8» §fВаш уровень был восстановлен до начального.'
+GUNGAME_LEVEL_NOT_ENOUGHT: '§6§lGunGame §8» §fЗа смерть у Вас был снят §c1 §fуровень!'
+GUNGAME_LEVEL_MAX: '§6§lGunGame §8» §cВаш уровень максимален!'
+GUNGAME_PLAYER_KILL_ANNOUCER: '§6§lGunGame §8» §fИгрок %player% §fбыл убит %killer%'
+GUNGAME_PLAYER_LEVEL_UP: '§6§lGunGame §8§l» §fВаш уровень был повышен! Теперь он равен §a%level%'
+GUNGAME_DAMAGE_ON_SPAWN: '§6§lGunGame §8» §cДраться на локации спавна нельзя!'
