@@ -1,5 +1,64 @@
 {
   "lang": {
     "name": "Қазақша"
+  },
+  "solo_variables": {},
+  "messages": {
+    "info": {
+      "init": {
+        "loading": "Жұмысқа дайындалу, күте тұрыңыз...",
+        "loaded": "Қош келдіңіз, {%s}%s{DEF}!",
+        "hint": "Басты мәзір: /gmenu",
+        "functions": {
+          "download_files": {
+            "downloaded": "Скрипт жұмысына {COL}қосымша{DEF} файл жүктелді!"
+          }
+        }
+      }
+    },
+    "error": {
+      "init": {
+        "functions": {
+          "download_files": {
+            "failed": "Скриптке қажетті файлды жүктеу кезінде қате пайда болды!"
+          },
+          "update": {
+            "json": "Жаңарту туралы ақпаратты жүктеу кезінде қате пайда болды: {COL}Сервер қатесі (Күтілген JSON)",
+            "failed": "Жаңартуды тексеру кезінде қате пайда болды! Скрипт қайта іске қосылуда..."
+          }
+        }
+      }
+    },
+    "warning": {},
+    "success": {
+      "init": {
+        "functions": {
+          "download_files": {
+            "all_downloaded": "Барлық {COL}қосымша{DEF} файлдар жүктелді! Қайта жүктелуде..."
+          },
+          "update": {
+            "found": "{AAAAAA}%s{DEF} нұсқасынан {COL}%s{DEF} нұсқасына жаңарту бар!"
+          }
+        }
+      }
+    }
+  },
+  "notifications": {
+    "info": {
+      "init": {
+        "loaded": "Скрипт сәтті жүктелді!"
+      }
+    },
+    "error": {},
+    "warning": {},
+    "success": {
+      "init": {
+        "functions": {
+          "update": {
+            "found": "Скрипттің жаңа нұсқасы бар!\nЖаңартатын уақыт келді!"
+          }
+        }
+      }
+    }
   }
 }
