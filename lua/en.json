@@ -1,5 +1,105 @@
 {
   "lang": {
     "name": "English"
+  },
+  "solo_variables": {},
+  "messages": {
+    "info": {
+      "init": {
+        "loading": "Preparing for work, please wait...",
+        "loaded": "Welcome, {%s}%s{DEF}!",
+        "hint": "Main menu: /gmenu",
+        "functions": {
+          "download_files": {
+            "downloaded": "An {COL}additional{DEF} file for the script has been downloaded!"
+          }
+        }
+      }
+    },
+    "error": {
+      "init": {
+        "functions": {
+          "download_files": {
+            "failed": "An error occurred while attempting to download a file for the script!"
+          },
+          "update": {
+            "json": "An error occurred while fetching update information: {COL}Server error (Expected JSON)",
+            "failed": "An error occurred while checking for updates! Restarting the script..."
+          }
+        }
+      }
+    },
+    "warning": {},
+    "success": {
+      "init": {
+        "functions": {
+          "download_files": {
+            "all_downloaded": "All {COL}additional{DEF} files have been downloaded! Restarting..."
+          },
+          "update": {
+            "found": "An update is available from {AAAAAA}%s{DEF} to {COL}%s{DEF}!"
+          }
+        }
+      }
+    }
+  },
+  "notifications": {
+    "info": {
+      "init": {
+        "loaded": "The script has been successfully loaded!"
+      }
+    },
+    "error": {},
+    "warning": {},
+    "success": {
+      "init": {
+        "functions": {
+          "update": {
+            "found": "A script update is available!\nTime to update!"
+          }
+        }
+      }
+    }
+  },
+  "prints": {
+    "functions": {
+      "download_files": {
+        "all_downloaded": "{AAAAAA}All required script files have been downloaded!",
+        "file_downloaded": "{AAAAAA}An additional file has been downloaded: {EEEEEE}%s",
+        "errors": {
+          "failed": "{AAAAAA}An error occurred while downloading the required file: {EEEEEE}%s",
+          "code": "{AAAAAA}Error code: {EEEEEE}%s"
+        }
+      },
+      "update": {
+        "success": {
+          "found": "{AAAAAA}An update is available!",
+          "version": "{AAAAAA}Version: {EEEEEE}%s {AAAAAA}[{EEEEEE}#%s{AAAAAA}]",
+          "current_version": "{AAAAAA}Current script version: {EEEEEE}%s {AAAAAA}[{EEEEEE}#%s{AAAAAA}]"
+        },
+        "errors": {
+          "failed": "{AAAAAA}An error occurred while executing the request: {EEEEEE}global.update",
+          "error_text": "{AAAAAA}Error text: {EEEEEE}%s"
+        }
+      }
+    }
+  },
+  "netlog": {
+    "FILES": {
+      "start": "Starting download of an additional file for the script: ",
+      "error": "An error occurred while downloading: ",
+      "success": "An additional file for the script has been downloaded: "
+    },
+    "UPDATE": {
+      "start": "Fetching update information...",
+      "errors": {
+        "json": "Server error (Expected JSON)!",
+        "failed": "Request failed!"
+      },
+      "success": "Request successfully completed!"
+    }
+  },
+  "frames": {
+    "stats": {}
   }
 }
