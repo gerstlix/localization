@@ -1,5 +1,105 @@
 {
   "lang": {
     "name": "Русский"
+  },
+  "solo_variables": {},
+  "messages": {
+    "info": {
+      "init": {
+        "loading": "Подготовка к работе, подождите...",
+        "loaded": "Добро пожаловать, {%s}%s{DEF}!",
+        "hint": "Главное меню: /gmenu",
+        "functions": {
+          "download_files": {
+            "downloaded": "Загружен {COL}дополнительный{DEF} файл для работы скрипта!"
+          }
+        }
+      }
+    },
+    "error": {
+      "init": {
+        "functions": {
+          "download_files": {
+            "failed": "Произошла ошибка при попытке загрузке файла для работы скрипта!"
+          },
+          "update": {
+            "json": "Произошла ошибка при загрузке информации об обновлении: {COL}Ошибка сервера (Ожидался JSON)",
+            "failed": "Произошла ошибка при попытке найти проверить обновление! Перезагрузка скрипта..."
+          }
+        }
+      }
+    },
+    "warning": {},
+    "success": {
+      "init": {
+        "functions": {
+          "download_files": {
+            "all_downloaded": "Все {COL}дополнительные{DEF} файлы загружены! Перезагрузка.."
+          },
+          "update": {
+            "found": "Доступно обновление с {AAAAAA}%s{DEF} на {COL}%s{DEF}!"
+          }
+        }
+      }
+    }
+  },
+  "notifications": {
+    "info": {
+      "init": {
+        "loaded": "Скрипт успешно загружен!"
+      }
+    },
+    "error": {},
+    "warning": {},
+    "success": {
+      "init": {
+        "functions": {
+          "update": {
+            "found": "Доступно обновление скрипта!\nПора обновиться!"
+          }
+        }
+      }
+    }
+  },
+  "prints": {
+    "functions": {
+      "download_files": {
+        "all_downloaded": "{AAAAAA}Все файлы для работы скрипта загружены!",
+        "file_downloaded": "{AAAAAA}Скачан дополнительный файл {EEEEEE}%s",
+        "errors": {
+          "failed": "{AAAAAA}Произошла ошибка при загрузке необходимого файла {EEEEEE}%s",
+          "code": "{AAAAAA}Код ошибки: {EEEEEE}%s"
+        }
+      },
+      "update": {
+        "success": {
+          "found": "{AAAAAA}Доступно обновление!",
+          "version": "{AAAAAA}Версия: {EEEEEE}%s {AAAAAA}[{EEEEEE}#%s{AAAAAA}]",
+          "current_version": "{AAAAAA}Текущая версия скрипта: {EEEEEE}%s {AAAAAA}[{EEEEEE}#%s{AAAAAA}]"
+        },
+        "errors": {
+          "failed": "{AAAAAA}Произошла ошибка при выполнении запроса {EEEEEE}global.update",
+          "error_text": "{AAAAAA}Текст ошибки: {EEEEEE}%s"
+        }
+      }
+    }
+  },
+  "netlog": {
+    "FILES": {
+      "start": "Начата загрузка дополнительного файла для работы скрипта: ",
+      "error": "Произошла ошибка при загрузке: ",
+      "success": "Загружен дополнительный файл для работы скрипта: "
+    },
+    "UPDATE": {
+      "start": "Загрузка информации об обновлении...",
+      "errors": {
+        "json": "Ошибка на стороне сервера (Ожидался JSON)!",
+        "failed": "Запрос не выполнен!"
+      },
+      "success": "Запрос успешно выполнен!"
+    }
+  },
+  "frames": {
+    "stats": {}
   }
 }
