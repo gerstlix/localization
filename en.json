@@ -1,0 +1,96 @@
+{
+  "lang": {
+    "name": "English",
+    "emoji": "\uD83C\uDDFA\uD83C\uDDF8"
+  },
+
+  "global": {
+    "change_theme": "Change theme",
+    "change_lang": "Change language",
+    "profile": "My profile",
+    "logout": "Logout"
+  },
+  "auth": {
+    "name": "Auth",
+    "full_name": "Authorization",
+    "menu": {
+      "admin": {
+        "name": "Admin Menu",
+        "logs": {
+          "name": "Action Logs"
+        },
+        "chats": {
+          "name": "All Chats"
+        },
+        "api_keys": {
+          "name": "All API Keys"
+        },
+        "users": {
+          "name": "Users"
+        },
+        "payments": {
+          "name": "Payments"
+        },
+        "tickets": {
+          "name": "Tickets"
+        },
+        "support_stats": {
+          "name": "Support Statistics"
+        }
+      },
+      "profile": {
+        "name": "Profile"
+      },
+      "chats": {
+        "name": "My Chats"
+      },
+      "developers": {
+        "name": "For Developers",
+        "api": {
+          "keys": {
+            "name": "API Keys"
+          },
+          "docs": {
+            "name": "Documentation"
+          }
+        }
+      },
+      "team": {
+        "name": "Team"
+      }
+    },
+    "headers": {
+      "unknown": "Unknown Page",
+      "profile": "Profile",
+      "dev-logs": "All Actions on the Site"
+    }
+  },
+  "leaders": {
+    "name": "Leaders",
+    "full_name": "Leadership System",
+    "menu": {
+
+    }
+  },
+  "admins": {
+    "name": "Admins",
+    "full_name": "Admin System",
+    "menu": {
+
+    }
+  },
+  "gamepanel": {
+    "name": "GamePanel",
+    "full_name": "Game Panel",
+    "menu": {
+
+    }
+  },
+  "court": {
+    "name": "Court",
+    "full_name": "Judicial System",
+    "menu": {
+
+    }
+  }
+}

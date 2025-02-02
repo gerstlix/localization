@@ -1,0 +1,97 @@
+{
+  "lang": {
+    "name": "Русский",
+    "emoji": "\uD83C\uDDF7\uD83C\uDDFA"
+  },
+
+  "global": {
+    "change_theme": "Сменить тему",
+    "change_lang": "Сменить язык",
+    "profile": "Мой профиль",
+    "logout": "Выход"
+  },
+  "auth": {
+    "name": "Auth",
+    "full_name": "Авторизация",
+    "menu": {
+      "admin": {
+        "name": "Админ-меню",
+        "logs": {
+          "name": "Логи действий"
+        },
+        "chats": {
+          "name": "Все чаты"
+        },
+        "api_keys": {
+          "name": "Все ключи API"
+        },
+        "users": {
+          "name": "Пользователи"
+        },
+        "payments": {
+          "name": "Платежи"
+        },
+        "tickets": {
+          "name": "Тикеты"
+        },
+        "support_stats": {
+          "name": "Статистика поддержки"
+        }
+      },
+      "profile": {
+        "name": "Профиль"
+      },
+      "chats": {
+        "name": "Мои чаты"
+      },
+      "developers": {
+        "name": "Разработчикам",
+        "api": {
+          "keys": {
+            "name": "Ключи API"
+          },
+          "docs": {
+            "name": "Документация"
+          }
+        }
+      },
+      "team": {
+        "name": "Команда"
+      }
+    },
+    "headers": {
+      "unknown": "Неизвестная страница",
+      "profile": "Профиль",
+      "dev-logs": "Все действия на сайте"
+    }
+  },
+  "leaders": {
+    "name": "Leaders",
+    "full_name": "Лидерская система",
+    "menu": {
+
+    }
+  },
+  "admins": {
+    "name": "Admins",
+    "full_name": "Админ система",
+    "menu": {
+
+    }
+  },
+  "gamepanel": {
+    "name": "GamePanel",
+    "full_name": "Игровая панель",
+    "menu": {
+
+    }
+  },
+  "court": {
+    "name": "Court",
+    "full_name": "Судебная система",
+    "menu": {
+
+    }
+  }
+
+}

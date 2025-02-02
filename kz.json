@@ -1,0 +1,96 @@
+{
+  "lang": {
+    "name": "Қазақша",
+    "emoji": "\uD83C\uDDF0\uD83C\uDDFF"
+  },
+
+  "global": {
+    "change_theme": "Тақырыпты өзгерту",
+    "change_lang": "Тілді өзгерту",
+    "profile": "Менің профилім",
+    "logout": "Шығу"
+  },
+  "auth": {
+    "name": "Auth",
+    "full_name": "Авторизация",
+    "menu": {
+      "admin": {
+        "name": "Әкімші мәзірі",
+        "logs": {
+          "name": "Әрекеттер журналы"
+        },
+        "chats": {
+          "name": "Барлық чаттар"
+        },
+        "api_keys": {
+          "name": "Барлық API кілттері"
+        },
+        "users": {
+          "name": "Пайдаланушылар"
+        },
+        "payments": {
+          "name": "Төлемдер"
+        },
+        "tickets": {
+          "name": "Билеттер"
+        },
+        "support_stats": {
+          "name": "Қолдау статистикасы"
+        }
+      },
+      "profile": {
+        "name": "Профиль"
+      },
+      "chats": {
+        "name": "Менің чаттарым"
+      },
+      "developers": {
+        "name": "Әзірлеушілерге",
+        "api": {
+          "keys": {
+            "name": "API кілттері"
+          },
+          "docs": {
+            "name": "Құжаттама"
+          }
+        }
+      },
+      "team": {
+        "name": "Команда"
+      }
+    },
+    "headers": {
+      "unknown": "Белгісіз бет",
+      "profile": "Профиль",
+      "dev-logs": "Сайттағы барлық әрекеттер"
+    }
+  },
+  "leaders": {
+    "name": "Leaders",
+    "full_name": "Көшбасшылық жүйесі",
+    "menu": {
+
+    }
+  },
+  "admins": {
+    "name": "Admins",
+    "full_name": "Әкімшілік жүйе",
+    "menu": {
+
+    }
+  },
+  "gamepanel": {
+    "name": "GamePanel",
+    "full_name": "Ойын панелі",
+    "menu": {
+
+    }
+  },
+  "court": {
+    "name": "Court",
+    "full_name": "Сот жүйесі",
+    "menu": {
+
+    }
+  }
+}

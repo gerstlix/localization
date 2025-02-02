@@ -1,0 +1,96 @@
+{
+  "lang": {
+    "name": "Українська",
+    "emoji": "\uD83C\uDDFA\uD83C\uDDE6"
+  },
+
+  "global": {
+    "change_theme": "Змінити тему",
+    "change_lang": "Змінити мову",
+    "profile": "Мій профіль",
+    "logout": "Вийти"
+  },
+  "auth": {
+    "name": "Auth",
+    "full_name": "Авторизація",
+    "menu": {
+      "admin": {
+        "name": "Адмін-меню",
+        "logs": {
+          "name": "Журнали дій"
+        },
+        "chats": {
+          "name": "Всі чати"
+        },
+        "api_keys": {
+          "name": "Всі ключі API"
+        },
+        "users": {
+          "name": "Користувачі"
+        },
+        "payments": {
+          "name": "Платежі"
+        },
+        "tickets": {
+          "name": "Тікети"
+        },
+        "support_stats": {
+          "name": "Статистика підтримки"
+        }
+      },
+      "profile": {
+        "name": "Профіль"
+      },
+      "chats": {
+        "name": "Мої чати"
+      },
+      "developers": {
+        "name": "Розробникам",
+        "api": {
+          "keys": {
+            "name": "Ключі API"
+          },
+          "docs": {
+            "name": "Документація"
+          }
+        }
+      },
+      "team": {
+        "name": "Команда"
+      }
+    },
+    "headers": {
+      "unknown": "Невідома сторінка",
+      "profile": "Профіль",
+      "dev-logs": "Всі дії на сайті"
+    }
+  },
+  "leaders": {
+    "name": "Leaders",
+    "full_name": "Лідерська система",
+    "menu": {
+
+    }
+  },
+  "admins": {
+    "name": "Admins",
+    "full_name": "Адміністраторська система",
+    "menu": {
+
+    }
+  },
+  "gamepanel": {
+    "name": "GamePanel",
+    "full_name": "Ігрова панель",
+    "menu": {
+
+    }
+  },
+  "court": {
+    "name": "Court",
+    "full_name": "Судова система",
+    "menu": {
+
+    }
+  }
+}
