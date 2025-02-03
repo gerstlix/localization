@@ -1,4 +1,3 @@
-import axios from "axios";
 import fs from "fs-extra";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -6,31 +5,9 @@ import { dirname } from "path";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-
 const baseLang = "ru";
 const targetLangs = ["en", "kz", "ua"];
 const directories = ["sites", "lua", "bots"];
-
-const translateText = async (text, targetLang) => {
-  if (!text.trim()) return text;
-  const langMap = { ua: "uk", kz: "kk" };
-  targetLang = langMap[targetLang] || targetLang;
-  try {
-    const response = await axios.get("https://translate.googleapis.com/translate_a/single", {
-      params: {
-        client: "gtx",
-        sl: baseLang,
-        tl: targetLang,
-        dt: "t",
-        q: text,
-      },
-    });
-    return response.data[0].map(t => t[0]).join("");
-  } catch (error) {
-    console.error(`Ошибка перевода на ${targetLang}:`, error.message);
-    return text;
-  }
-};
 
 const syncObjects = async (baseObj, targetObj, lang) => {
   for (const key in baseObj) {
@@ -41,7 +18,7 @@ const syncObjects = async (baseObj, targetObj, lang) => {
       await syncObjects(baseObj[key], targetObj[key], lang);
     } else {
       if (!(key in targetObj)) {
-        targetObj[key] = await translateText(baseObj[key], lang);
+        targetObj[key] = baseObj[key];
       }
     }
   }
@@ -65,7 +42,7 @@ const processFolder = async folderPath => {
     let langContent = fs.existsSync(langFilePath) ? await fs.readJson(langFilePath) : {};
     await syncObjects(baseContent, langContent, lang);
     await fs.writeJson(langFilePath, langContent, { spaces: 2 });
-    console.log(`✅ Файл ${lang}.json обновлен в ${folderPath}`);
+    console.log(`Файл ${lang}.json обновлен в ${folderPath}`);
   }
 };
 
@@ -75,7 +52,7 @@ const syncLocales = async () => {
     if (fs.existsSync(folderPath)) {
       await processFolder(folderPath);
     } else {
-      console.warn(`⚠️ Папка ${dir} не найдена, пропускаем...`);
+      console.warn(`Папка ${dir} не найдена, пропускаем...`);
     }
   }
 };

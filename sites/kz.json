@@ -151,11 +151,11 @@
       }
     },
     "messages": {
-      "page_got": "Data from the page has been successfully obtained!",
-      "cache_saved": "The main data is successfully saved in the JSON file!",
+      "page_got": "Беттің мәліметтері сәтті алынды!",
+      "cache_saved": "Негізгі деректер JSON файлында сәтті сақталды!",
       "methods": {
-        "login": "Authorization is successful!",
-        "get-info": "Authorization is active!"
+        "login": "Авторизация сәтті!",
+        "get-info": "Авторизация белсенді!"
       }
     }
   }
