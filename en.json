@@ -92,5 +92,46 @@
     "menu": {
 
     }
+  },
+  "api": {
+    "errors": {
+      "logout": "You have logged out",
+      "page_not_found": "This page does not exist",
+      "missing_fields": "You have not filled in all fields!",
+      "need_robot_check": "You need to pass the robot check!",
+      "system_not_defined": "You must specify the system in the header!",
+      "id_not_defined": "You must provide the ID of the selected account in the header!",
+      "action_not_found": "This action was not found",
+      "session_deleted": "Your session has been terminated! (Not found in the database)",
+      "need_auth": "Authorization is required for this action!",
+      "already_authed": "You are already authorized!",
+      "main_account_not_found": "Could not find your account!",
+      "param_not_provided": "Parameter not provided!",
+      "method": {
+        "not_defined": "Method not specified",
+        "not_found": "Method does not exist",
+        "not_allowed": "This request method is not supported by the API"
+      },
+      "api_only_post": "The API only supports POST requests",
+      "post_not_allowed": "POST requests are not supported for this action",
+      "attachment": {
+        "need": "An attachment is required!",
+        "type_not_supports": "Invalid file type!",
+        "too_large": "The file is too large"
+      },
+      "database": {
+        "main_connection": "An error occurred while connecting to the main database!",
+        "logs_connection": "An error occurred while connecting to the log database!",
+        "stmt": "Failed to prepare the database query!",
+        "exception": "An error occurred while executing the query!"
+      },
+      "methods": {
+        "login": {
+          "password_is_null": "Do you think you’re smart?",
+          "undefined_type": "Invalid type",
+          "not_found": "Account not found — check your login and password"
+        }
+      }
+    }
   }
 }
