@@ -1,14 +1,13 @@
 {
   "lang": {
     "name": "English",
-    "emoji": "\uD83C\uDDFA\uD83C\uDDF8"
+    "emoji": "🇺🇸"
   },
-
   "global": {
     "change_theme": "Change theme",
     "change_lang": "Change language",
-    "profile": "My profile",
-    "logout": "Logout"
+    "logout": "Logout",
+    "profile": "My profile"
   },
   "auth": {
     "name": "Auth",
@@ -62,36 +61,54 @@
     "headers": {
       "unknown": "Unknown Page",
       "profile": "Profile",
-      "dev-logs": "All Actions on the Site"
+      "dev-logs": "All Actions on the Site",
+      "login": "Authorization",
+      "register": "Registration"
+    },
+    "pages": {
+      "login": {
+        "title": "Account Login",
+        "login_as": {
+          "vk": "Login via VK",
+          "discord": "Login via Discord"
+        },
+        "register": "Create an Account",
+        "login": "Log in",
+        "fields": {
+          "login": {
+            "label": "Login",
+            "placeholder": "Enter your login (not nickname)",
+            "validation": "The login field is required!"
+          },
+          "password": {
+            "label": "Password",
+            "placeholder": "Enter your password",
+            "validation": "The password field is required!"
+          }
+        },
+        "forgot-password": "Forgot password?"
+      }
     }
   },
   "leaders": {
     "name": "Leaders",
     "full_name": "Leadership System",
-    "menu": {
-
-    }
+    "menu": {}
   },
   "admins": {
     "name": "Admins",
     "full_name": "Admin System",
-    "menu": {
-
-    }
+    "menu": {}
   },
   "gamepanel": {
     "name": "GamePanel",
     "full_name": "Game Panel",
-    "menu": {
-
-    }
+    "menu": {}
   },
   "court": {
     "name": "Court",
     "full_name": "Judicial System",
-    "menu": {
-
-    }
+    "menu": {}
   },
   "api": {
     "errors": {
@@ -131,6 +148,14 @@
           "undefined_type": "Invalid type",
           "not_found": "Account not found — check your login and password"
         }
+      }
+    },
+    "messages": {
+      "page_got": "Data from the page has been successfully obtained!",
+      "cache_saved": "The main data is successfully saved in the JSON file!",
+      "methods": {
+        "login": "Authorization is successful!",
+        "get-info": "Authorization is active!"
       }
     }
   }

@@ -1,14 +1,13 @@
 {
   "lang": {
     "name": "Қазақша",
-    "emoji": "\uD83C\uDDF0\uD83C\uDDFF"
+    "emoji": "🇰🇿"
   },
-
   "global": {
     "change_theme": "Тақырыпты өзгерту",
     "change_lang": "Тілді өзгерту",
-    "profile": "Менің профилім",
-    "logout": "Шығу"
+    "logout": "Шығу",
+    "profile": "Менің профилім"
   },
   "auth": {
     "name": "Auth",
@@ -62,36 +61,54 @@
     "headers": {
       "unknown": "Белгісіз бет",
       "profile": "Профиль",
-      "dev-logs": "Сайттағы барлық әрекеттер"
+      "dev-logs": "Сайттағы барлық әрекеттер",
+      "login": "Рұқсат",
+      "register": "Тіркеу"
+    },
+    "pages": {
+      "login": {
+        "title": "Аккаунтқа кіру",
+        "login_as": {
+          "vk": "VK арқылы кіру",
+          "discord": "Discord арқылы кіру"
+        },
+        "register": "Аккаунт жасау",
+        "login": "Кіру",
+        "fields": {
+          "login": {
+            "label": "Логин",
+            "placeholder": "Логиніңізді енгізіңіз (ник емес)",
+            "validation": "Логин өрісі міндетті түрде толтырылуы керек!"
+          },
+          "password": {
+            "label": "Құпиясөз",
+            "placeholder": "Құпиясөзіңізді енгізіңіз",
+            "validation": "Құпиясөз өрісі міндетті түрде толтырылуы керек!"
+          }
+        },
+        "forgot-password": "Құпиясөзді ұмыттыңыз ба?"
+      }
     }
   },
   "leaders": {
     "name": "Leaders",
     "full_name": "Көшбасшылық жүйесі",
-    "menu": {
-
-    }
+    "menu": {}
   },
   "admins": {
     "name": "Admins",
     "full_name": "Әкімшілік жүйе",
-    "menu": {
-
-    }
+    "menu": {}
   },
   "gamepanel": {
     "name": "GamePanel",
     "full_name": "Ойын панелі",
-    "menu": {
-
-    }
+    "menu": {}
   },
   "court": {
     "name": "Court",
     "full_name": "Сот жүйесі",
-    "menu": {
-
-    }
+    "menu": {}
   },
   "api": {
     "errors": {
@@ -131,6 +148,14 @@
           "undefined_type": "Қате түрі",
           "not_found": "Аккаунт табылмады — логин мен парольді тексеріңіз"
         }
+      }
+    },
+    "messages": {
+      "page_got": "Data from the page has been successfully obtained!",
+      "cache_saved": "The main data is successfully saved in the JSON file!",
+      "methods": {
+        "login": "Authorization is successful!",
+        "get-info": "Authorization is active!"
       }
     }
   }

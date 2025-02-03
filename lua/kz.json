@@ -60,5 +60,46 @@
         }
       }
     }
+  },
+  "prints": {
+    "functions": {
+      "download_files": {
+        "all_downloaded": "{AAAAAA}Все файлы для работы скрипта загружены!",
+        "file_downloaded": "{AAAAAA}Скачан дополнительный файл {EEEEEE}%s",
+        "errors": {
+          "failed": "{AAAAAA}Произошла ошибка при загрузке необходимого файла {EEEEEE}%s",
+          "code": "{AAAAAA}Код ошибки: {EEEEEE}%s"
+        }
+      },
+      "update": {
+        "success": {
+          "found": "{AAAAAA}Доступно обновление!",
+          "version": "{AAAAAA}Версия: {EEEEEE}%s {AAAAAA}[{EEEEEE}#%s{AAAAAA}]",
+          "current_version": "{AAAAAA}Текущая версия скрипта: {EEEEEE}%s {AAAAAA}[{EEEEEE}#%s{AAAAAA}]"
+        },
+        "errors": {
+          "failed": "{AAAAAA}Произошла ошибка при выполнении запроса {EEEEEE}global.update",
+          "error_text": "{AAAAAA}Текст ошибки: {EEEEEE}%s"
+        }
+      }
+    }
+  },
+  "netlog": {
+    "FILES": {
+      "start": "Начата загрузка дополнительного файла для работы скрипта: ",
+      "error": "Произошла ошибка при загрузке: ",
+      "success": "Загружен дополнительный файл для работы скрипта: "
+    },
+    "UPDATE": {
+      "start": "Загрузка информации об обновлении...",
+      "errors": {
+        "json": "Ошибка на стороне сервера (Ожидался JSON)!",
+        "failed": "Запрос не выполнен!"
+      },
+      "success": "Запрос успешно выполнен!"
+    }
+  },
+  "frames": {
+    "stats": {}
   }
 }
