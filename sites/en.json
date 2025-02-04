@@ -7,7 +7,16 @@
     "change_theme": "Change Theme",
     "change_lang": "Change Language",
     "profile": "My Profile",
-    "logout": "Logout"
+    "logout": "Logout",
+    "systems": {
+      "auth": "A convenient way to log in to all Gerstlix services with one click — fast, secure, and without the need to remember multiple passwords and logins",
+      "admins": "A tool for admins that allows them to monitor their online status and penalties, simplifying work and making it more productive",
+      "leaders": "A platform for leaders and their deputies, where they can manage the faction, add members, track activities, and use the shop",
+      "court": "An assistant for judges that speeds up work with court cases and enables effective interaction with the forum",
+      "gamepanel": "A useful panel for players that allows them to kick a bot from their account at any time and regain full control",
+      "congress": "The system is under development. More information will be added later",
+      "button_go": "Go"
+    }
   },
   "auth": {
     "name": "Auth",
