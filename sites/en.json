@@ -1,13 +1,13 @@
 {
   "lang": {
     "name": "English",
-    "emoji": "🇺🇸"
+    "emoji": "\uD83C\uDDEC\uD83C\uDDE7"
   },
   "global": {
-    "change_theme": "Change theme",
-    "change_lang": "Change language",
-    "logout": "Logout",
-    "profile": "My profile"
+    "change_theme": "Change Theme",
+    "change_lang": "Change Language",
+    "profile": "My Profile",
+    "logout": "Logout"
   },
   "auth": {
     "name": "Auth",
@@ -60,39 +60,64 @@
     },
     "headers": {
       "unknown": "Unknown Page",
-      "profile": "Profile",
-      "dev-logs": "All Actions on the Site",
       "login": "Authorization",
-      "register": "Registration"
+      "register": "Registration",
+      "profile": "Profile",
+      "dev-logs": "All Site Actions"
     },
     "pages": {
       "login": {
-        "title": "Account Login",
+        "title": "Log into Account",
         "login_as": {
-          "vk": "Login via VK",
-          "discord": "Login via Discord"
+          "vk": "Login with VK",
+          "discord": "Login with Discord"
         },
-        "register": "Create an Account",
-        "login": "Log in",
+        "register": "Create Account",
+        "login": "Log In",
         "fields": {
           "login": {
-            "label": "Login",
-            "placeholder": "Enter your login (not nickname)",
-            "validation": "The login field is required!"
+            "label": "Username",
+            "placeholder": "Enter your username (not nickname)",
+            "validation": "Username field is required!"
           },
           "password": {
             "label": "Password",
             "placeholder": "Enter your password",
-            "validation": "The password field is required!"
+            "validation": "Password field is required!"
           }
         },
-        "forgot-password": "Forgot password?"
+        "forgot-password": "Forgot your password?"
+      },
+      "register": {
+        "title": "Account Registration",
+        "fields": {
+          "login": {
+            "label": "Username",
+            "placeholder": "Enter your username (not nickname)",
+            "validation": "Username field is required!"
+          },
+          "nickname": {
+            "label": "In-Game Nickname",
+            "placeholder": "Enter your in-game nickname",
+            "validation": "Nickname field is required!"
+          },
+          "password": {
+            "label": "Password",
+            "placeholder": "Enter your password",
+            "validation": "Password field is required!"
+          }
+        },
+        "register": "Register",
+        "already-account": "Already have an account?"
       }
+    },
+    "toasts": {
+      "check_internet_connection": "Request failed — please check your internet connection"
     }
   },
   "leaders": {
     "name": "Leaders",
-    "full_name": "Leadership System",
+    "full_name": "Leader System",
     "menu": {}
   },
   "admins": {
@@ -112,49 +137,55 @@
   },
   "api": {
     "errors": {
-      "logout": "You have logged out",
-      "page_not_found": "This page does not exist",
-      "missing_fields": "You have not filled in all fields!",
+      "logout": "You have been logged out",
+      "page_not_found": "Page not found",
+      "missing_fields": "Not all fields were filled in!",
       "need_robot_check": "You need to pass the robot check!",
-      "system_not_defined": "You must specify the system in the header!",
-      "id_not_defined": "You must provide the ID of the selected account in the header!",
-      "action_not_found": "This action was not found",
-      "session_deleted": "Your session has been terminated! (Not found in the database)",
+      "system_not_defined": "System header is required!",
+      "id_not_defined": "ID of the selected account is required in header!",
+      "action_not_found": "Action not found",
+      "session_deleted": "Your session has ended! (Not found in DB)",
       "need_auth": "Authorization is required for this action!",
       "already_authed": "You are already authorized!",
-      "main_account_not_found": "Could not find your account!",
+      "main_account_not_found": "Your account could not be found!",
       "param_not_provided": "Parameter not provided!",
       "method": {
-        "not_defined": "Method not specified",
+        "not_defined": "Method not defined",
         "not_found": "Method does not exist",
         "not_allowed": "This request method is not supported by the API"
       },
-      "api_only_post": "The API only supports POST requests",
-      "post_not_allowed": "POST requests are not supported for this action",
+      "api_only_post": "API only supports POST requests",
+      "post_not_allowed": "POST requests are not allowed for this action",
       "attachment": {
-        "need": "An attachment is required!",
-        "type_not_supports": "Invalid file type!",
-        "too_large": "The file is too large"
+        "need": "Attachment is required!",
+        "type_not_supports": "File type not supported!",
+        "too_large": "File is too large"
       },
       "database": {
-        "main_connection": "An error occurred while connecting to the main database!",
-        "logs_connection": "An error occurred while connecting to the log database!",
-        "stmt": "Failed to prepare the database query!",
+        "main_connection": "Error connecting to main database!",
+        "logs_connection": "Error connecting to logs database!",
+        "stmt": "Failed to prepare database query!",
         "exception": "An error occurred while executing the query!"
       },
       "methods": {
         "login": {
-          "password_is_null": "Do you think you’re smart?",
+          "password_is_null": "Password is null?",
           "undefined_type": "Invalid type",
-          "not_found": "Account not found — check your login and password"
+          "not_found": "Account not found — please check your username and password"
+        },
+        "register": {
+          "login_regexp": "Invalid username (only English letters are allowed, no symbols)",
+          "nick_regexp": "Invalid nickname (Format: Nick_Name)",
+          "login_exists": "An account with this username already exists!"
         }
       }
     },
     "messages": {
-      "page_got": "Data from the page has been successfully obtained!",
-      "cache_saved": "The main data is successfully saved in the JSON file!",
+      "page_got": "Page data successfully retrieved!",
+      "cache_saved": "Main data successfully saved to JSON file!",
       "methods": {
-        "login": "Authorization is successful!",
+        "login": "Logged in successfully!",
+        "register": "Registered successfully!",
         "get-info": "Authorization is active!"
       }
     }
