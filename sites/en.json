@@ -1,7 +1,7 @@
 {
   "lang": {
     "name": "English",
-    "emoji": "\uD83C\uDDEC\uD83C\uDDE7"
+    "emoji": "🇬🇧"
   },
   "global": {
     "change_theme": "Change Theme",
@@ -112,7 +112,11 @@
       }
     },
     "toasts": {
-      "check_internet_connection": "Request failed — please check your internet connection"
+      "check_internet_connection": "Request failed — please check your internet connection",
+      "vk": {
+        "api_undefined": "VK API not loaded",
+        "unknown_error": "Auth VK error: maybe, you closed widget"
+      }
     }
   },
   "leaders": {
@@ -171,7 +175,11 @@
         "login": {
           "password_is_null": "Password is null?",
           "undefined_type": "Invalid type",
-          "not_found": "Account not found — please check your username and password"
+          "not_found": "Account not found — please check your username and password",
+          "vk_login": {
+            "session_expired": "Your session expired!",
+            "not_found": "Account not found — the account is not connected to this VK profile"
+          }
         },
         "register": {
           "login_regexp": "Invalid username (only English letters are allowed, no symbols)",
